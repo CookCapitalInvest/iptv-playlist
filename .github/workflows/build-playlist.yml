@@ -1,0 +1,312 @@
+name: Build English IPTV Playlist
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 3 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Generate playlist
+        run: |
+          python3 - <<'PY'
+          import json
+          import re
+          import urllib.request
+          from collections import defaultdict
+          from pathlib import Path
+
+          API = "https://iptv-org.github.io/api/"
+
+          def get(filename):
+              with urllib.request.urlopen(API + filename, timeout=60) as r:
+                  return json.load(r)
+
+          channels = get("channels.json")
+          feeds = get("feeds.json")
+          streams = get("streams.json")
+          logos = get("logos.json")
+
+          channels_by_id = {x["id"]: x for x in channels}
+
+          feeds_by_channel = defaultdict(list)
+          for x in feeds:
+              feeds_by_channel[x.get("channel")].append(x)
+
+          streams_by_channel = defaultdict(list)
+          for x in streams:
+              streams_by_channel[x.get("channel")].append(x)
+
+          logos_by_channel = {}
+          for x in logos:
+              if x.get("url"):
+                  logos_by_channel.setdefault(x.get("channel"), x["url"])
+
+          # Broad sports detection. This intentionally catches channels
+          # that may be incorrectly categorized in the source data.
+          sports_pattern = re.compile(
+              r"""
+              espn|espn2|espnu|espnews|
+              tsn|sportsnet|cbc\s*sports|tva\s*sports|
+              fox\s*sports|fs1|fs2|
+              nfl\s*network|nba\s*tv|mlb\s*network|nhl\s*network|
+              golf\s*channel|tennis\s*channel|
+              sec\s*network|acc\s*network|big\s*ten|btn|
+              tnt\s*sports|sky\s*sports|bein\s*sports|
+              dazn|eurosport|premier\s*sports|
+              stadium|fight\s*network|
+              racing|motorsport|nascar|formula\s*1|\bf1\b|
+              soccer|football|basketball|baseball|hockey|
+              tennis|golf|boxing|wrestling|rugby|cricket|
+              sports
+              """,
+              re.I | re.X
+          )
+
+          # Broad English-language fallback.
+          english_pattern = re.compile(
+              r"""
+              abc|cbs|nbc|fox|pbs|cw|
+              cbc|ctv|global|citytv|cp24|
+              bbc|itv|channel\s*[45]|sky|
+              cnn|msnbc|fox\s*news|cnbc|bloomberg|
+              espn|tsn|sportsnet|dazn|
+              amc|fx|fxx|usa\s*network|syfy|
+              tnt|tbs|trutv|comedy\s*central|
+              paramount|discovery|history|
+              national\s*geographic|nat\s*geo|
+              nickelodeon|nick\s*jr|cartoon\s*network|
+              adult\s*swim|food\s*network|hgtv|tlc|
+              al\s*jazeera\s*english|france\s*24|
+              dw\s*english|nhk\s*world|cna
+              """,
+              re.I | re.X
+          )
+
+          # English-speaking markets we want to include.
+          english_countries = {
+              "CA","US","GB","AU","NZ","IE","ZA","IN","SG","HK",
+              "JM","BS","BB","TT","AG","GD","LC","VC","KN"
+          }
+
+          groups = defaultdict(list)
+          seen = set()
+
+          for channel_id, channel_streams in streams_by_channel.items():
+
+              channel = channels_by_id.get(channel_id)
+
+              if not channel:
+                  continue
+
+              if channel.get("is_nsfw"):
+                  continue
+
+              name = channel.get("name", "")
+              alt_names = " ".join(channel.get("alt_names", []))
+              searchable_name = f"{name} {alt_names}"
+
+              channel_feeds = feeds_by_channel.get(channel_id, [])
+
+              english_feeds = [
+                  f for f in channel_feeds
+                  if "eng" in (f.get("languages") or [])
+              ]
+
+              fallback_english = (
+                  not english_feeds
+                  and channel.get("country") in english_countries
+                  and english_pattern.search(searchable_name)
+              )
+
+              if not english_feeds and not fallback_english:
+                  continue
+
+              candidates = [
+                  s for s in channel_streams
+                  if s.get("url")
+                  and "geo-blocked" not in {
+                      str(x).lower() for x in s.get("labels", [])
+                  }
+              ]
+
+              if not candidates:
+                  continue
+
+              # Prefer streams attached to English feeds.
+              if english_feeds:
+                  english_feed_ids = {
+                      f.get("id") for f in english_feeds
+                  }
+
+                  filtered = [
+                      s for s in candidates
+                      if s.get("feed") in english_feed_ids
+                  ]
+
+                  if filtered:
+                      candidates = filtered
+
+              # Determine category.
+              categories = set(channel.get("categories") or [])
+
+              if (
+                  "sports" in categories
+                  or sports_pattern.search(searchable_name)
+              ):
+                  group = "Sports"
+
+              elif "news" in categories:
+                  group = "News"
+
+              elif "movies" in categories:
+                  group = "Movies"
+
+              elif (
+                  "series" in categories
+                  or "entertainment" in categories
+              ):
+                  group = "Entertainment"
+
+              elif (
+                  "kids" in categories
+                  or "animation" in categories
+              ):
+                  group = "Kids"
+
+              elif "documentary" in categories:
+                  group = "Documentary"
+
+              elif "music" in categories:
+                  group = "Music"
+
+              elif "business" in categories:
+                  group = "Business"
+
+              elif "comedy" in categories:
+                  group = "Comedy"
+
+              elif "cooking" in categories:
+                  group = "Cooking"
+
+              elif "science" in categories:
+                  group = "Science"
+
+              elif "weather" in categories:
+                  group = "Weather"
+
+              elif "travel" in categories:
+                  group = "Travel"
+
+              else:
+                  group = "Other"
+
+              # Keep up to three streams per channel/feed.
+              for stream in candidates[:3]:
+
+                  url = stream["url"]
+
+                  if url in seen:
+                      continue
+
+                  seen.add(url)
+
+                  feed = stream.get("feed")
+
+                  logo = logos_by_channel.get(channel_id, "")
+
+                  title = stream.get("title") or name
+
+                  country = channel.get("country", "")
+
+                  groups[group].append({
+                      "title": title,
+                      "url": url,
+                      "logo": logo,
+                      "country": country
+                  })
+
+          order = [
+              "Sports",
+              "News",
+              "Entertainment",
+              "Movies",
+              "Kids",
+              "Documentary",
+              "Music",
+              "Business",
+              "Comedy",
+              "Cooking",
+              "Science",
+              "Weather",
+              "Travel",
+              "Other"
+          ]
+
+          def clean(value):
+              return str(value).replace('"', "'").replace(
+                  "\n", " "
+              ).replace("\r", " ")
+
+          output = ["#EXTM3U"]
+
+          for group in order:
+
+              entries = groups.get(group, [])
+
+              entries.sort(
+                  key=lambda x: (
+                      x["country"],
+                      x["title"].lower()
+                  )
+              )
+
+              for entry in entries:
+
+                  attrs = [
+                      f'tvg-name="{clean(entry["title"])}"',
+                      f'group-title="{clean(group)}"'
+                  ]
+
+                  if entry["logo"]:
+                      attrs.append(
+                          f'tvg-logo="{clean(entry["logo"])}"'
+                      )
+
+                  output.append(
+                      f'#EXTINF:-1 {" ".join(attrs)},'
+                      f'{clean(entry["title"])}'
+                  )
+
+                  output.append(entry["url"])
+
+          Path("english-tv.m3u").write_text(
+              "\n".join(output) + "\n",
+              encoding="utf-8"
+          )
+
+          print("English IPTV playlist generated.")
+          print("Channels:", sum(len(x) for x in groups.values()))
+          print("Sports:", len(groups["Sports"]))
+          PY
+
+      - name: Commit playlist
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add english-tv.m3u
+
+          git diff --cached --quiet || \
+            git commit -m "Update English IPTV playlist"
+
+          git push
