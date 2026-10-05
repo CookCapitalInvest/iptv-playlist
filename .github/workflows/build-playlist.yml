@@ -298,6 +298,45 @@ jobs:
           print("Channels:", sum(len(x) for x in groups.values()))
           print("Sports:", len(groups["Sports"]))
           PY
+      
+      - name: Add VLC category groups
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import re
+
+          path = Path("english-tv.m3u")
+          lines = path.read_text(encoding="utf-8").splitlines()
+
+          output = []
+          current_group = None
+
+          for line in lines:
+              if line.startswith("#EXTINF:"):
+
+                  match = re.search(
+                      r'group-title="([^"]+)"',
+                      line
+                  )
+
+                  group = match.group(1) if match else "Other"
+
+                  if group != current_group:
+                      output.append(f"#EXTGRP:{group}")
+                      current_group = group
+
+                  output.append(line)
+
+              else:
+                  output.append(line)
+
+          path.write_text(
+              "\n".join(output) + "\n",
+              encoding="utf-8"
+          )
+
+          print("VLC category groups added.")
+          PY
 
       - name: Commit playlist
         run: |
