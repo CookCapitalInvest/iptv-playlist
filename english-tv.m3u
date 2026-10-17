@@ -162,6 +162,22 @@ https://amg01074-fueltv-fueltvau-samsungau-g09kq.amagi.tv/playlist/amg01074-fuel
 https://amg01074-fueltv-fueltvnz-samsungnz-i8ani.amagi.tv/playlist/amg01074-fueltv-fueltvnz-samsungnz/playlist.m3u8
 #EXTINF:-1 tvg-name="FUEL TV" group-title="Sports" tvg-logo="https://i.imgur.com/I8mviBy.png",FUEL TV
 https://amg01074-fueltv-fueltvemeaen-rakuten-b6j62.amagi.tv/hls/amagi_hls_data_rakutenAA-fueltvemeaen/CDN/master.m3u8
+#EXTINF:-1 tvg-name="beIN Sports 1" group-title="Sports" tvg-logo="https://i.imgur.com/Vtk2cGI.png",beIN Sports 1
+http://primetv.cc.cd/beinfhd1/tracks-v1a1/mono.tbin.m3u8
+#EXTINF:-1 tvg-name="beIN Sports 2" group-title="Sports" tvg-logo="https://i.imgur.com/vUJZSvs.png",beIN Sports 2
+http://primetv.cc.cd/beinfhd2/index.m3u8
+#EXTINF:-1 tvg-name="beIN Sports 3" group-title="Sports" tvg-logo="https://i.imgur.com/UYSMao3.png",beIN Sports 3
+http://primetv.cc.cd/beinfhd3/index.m3u8
+#EXTINF:-1 tvg-name="beIN Sports 4" group-title="Sports" tvg-logo="https://i.imgur.com/vwAgJNi.png",beIN Sports 4
+http://primetv.cc.cd/beinfhd4/tracks-v1a1/mono.tbin.m3u8
+#EXTINF:-1 tvg-name="beIN Sports 5" group-title="Sports" tvg-logo="https://i.imgur.com/2Rha5aY.png",beIN Sports 5
+http://primetv.cc.cd/beinfhd5/tracks-v1a1/mono.tbin.m3u8
+#EXTINF:-1 tvg-name="beIN Sports 6" group-title="Sports" tvg-logo="https://i.imgur.com/0wBdLYb.png",beIN Sports 6
+http://primetv.cc.cd/beinfhd6/index.m3u8
+#EXTINF:-1 tvg-name="beIN Sports 7" group-title="Sports" tvg-logo="https://i.imgur.com/iODFwZi.png",beIN Sports 7
+http://primetv.cc.cd/beinfhd7/index.m3u8
+#EXTINF:-1 tvg-name="beIN Sports 8" group-title="Sports" tvg-logo="https://i.imgur.com/CaFEyVn.png",beIN Sports 8
+http://primetv.cc.cd/beinfhd8/index.m3u8
 #EXTINF:-1 tvg-name="Formula 1 AntenaPlay" group-title="Sports" tvg-logo="https://assets.antenaplay.ro/2024/02/23/XUKfJwir4MxNeP4nHtG7.png",Formula 1 AntenaPlay
 https://live4dai.antenaplay.ro/live2_sdi09/live2_sdi09_600k.m3u8
 #EXTINF:-1 tvg-name="MMA-TV.com" group-title="Sports" tvg-logo="https://i.imgur.com/QhdxNsB.png",MMA-TV.com
@@ -541,6 +557,8 @@ https://c.mjh.nz/abc-news.m3u8
 https://skynewsau-live-premium.akamaized.net/hls/live/2105299/skynews/live.m3u8
 #EXTINF:-1 tvg-name="SBS WorldWatch" group-title="News" tvg-logo="https://i.imgur.com/gCKMxrW.png",SBS WorldWatch
 http://44.32.200.142:5004/auto/v35
+#EXTINF:-1 tvg-name="Sky News Extra" group-title="News" tvg-logo="https://i.imgur.com/ZsPb8nL.png",Sky News Extra
+https://skynewsau-live-premium.akamaized.net/hls/live/2105306/skynewsextra/live_540p.m3u8
 #EXTINF:-1 tvg-name="Sky News Extra 1" group-title="News" tvg-logo="https://i.imgur.com/ZsPb8nL.png",Sky News Extra 1
 https://skynewsau-live.akamaized.net/hls/live/2002689/skynewsau-extra1/master.m3u8
 #EXTINF:-1 tvg-name="Sky News Extra 2" group-title="News" tvg-logo="https://i.imgur.com/ZsPb8nL.png",Sky News Extra 2
@@ -747,10 +765,10 @@ https://freem3u.xyz/api/live/play.m3u8?vid=106
 https://goliveafrica.media:9998/live/62580e144eb43/index.m3u8
 #EXTINF:-1 tvg-name="EAC News TV" group-title="News" tvg-logo="https://i.imgur.com/EuYhS9Z.png",EAC News TV
 https://live.eac-news.com/LiveApp/streams/eacnews.m3u8
-#EXTINF:-1 tvg-name="Arirang TV" group-title="News" tvg-logo="https://i.imgur.com/kk2MdNC.png",Arirang TV
-http://amdlive-ch01.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8
 #EXTINF:-1 tvg-name="Arirang TV HD" group-title="News" tvg-logo="https://i.imgur.com/kk2MdNC.png",Arirang TV HD
 http://45.162.64.114/ARIRANG/index.m3u8
+#EXTINF:-1 tvg-name="Arirang TV HD" group-title="News" tvg-logo="https://i.imgur.com/kk2MdNC.png",Arirang TV HD
+https://freem3u.xyz/api/live/play.m3u8?vid=111
 #EXTINF:-1 tvg-name="Arirang TV HD" group-title="News" tvg-logo="https://i.imgur.com/kk2MdNC.png",Arirang TV HD
 https://dash3.antik.sk/live/test_arirang/playlist.m3u8
 #EXTINF:-1 tvg-name="Arirang TV UN" group-title="News" tvg-logo="https://i.imgur.com/Jdy3WNm.png",Arirang TV UN
@@ -3538,8 +3556,6 @@ http://api.toonamiaftermath.com:3000/pst/playlist.m3u8
 http://38.134.250.110:8000/play/a01t/index.m3u8
 #EXTINF:-1 tvg-name="Tooncast" group-title="Kids" tvg-logo="https://i.imgur.com/3yXRbQy.png",Tooncast
 https://streaming.onnethn.com/TOONCAST/playlist.m3u8
-#EXTINF:-1 tvg-name="Tooncast" group-title="Kids" tvg-logo="https://i.imgur.com/3yXRbQy.png",Tooncast
-http://170.244.209.30:8000/play/a05t/index.m3u8
 #EXTINF:-1 tvg-name="ToonGoggles" group-title="Kids" tvg-logo="https://i.imgur.com/JMnxswq.png",ToonGoggles
 https://amg01329-otterainc-toongoggles-samsungau-ad-4c.amagi.tv/playlist/amg01329-otterainc-toongoggles-samsungau/playlist.m3u8
 #EXTINF:-1 tvg-name="ToonGoggles" group-title="Kids" tvg-logo="https://i.imgur.com/JMnxswq.png",ToonGoggles
@@ -4667,6 +4683,8 @@ http://45.171.64.30:6060/play/a007/index.m3u8
 #EXTINF:-1 tvg-name="Smithsonian Channel Selects" group-title="Science" tvg-logo="https://i.imgur.com/Kt5j8Vr.png",Smithsonian Channel Selects
 https://jmp2.uk/plu-5f21ea08007a49000762d349.m3u8
 #EXTGRP:Weather
+#EXTINF:-1 tvg-name="Sky News Weather Channel" group-title="Weather" tvg-logo="https://i.imgur.com/FKg6AQr.png",Sky News Weather Channel
+https://skynewsau-live-premium.akamaized.net/hls/live/2105305/skynewsweather/live_540p.m3u8
 #EXTINF:-1 tvg-name="WeatherSpy" group-title="Weather" tvg-logo="https://i.imgur.com/GTxN2nH.png",WeatherSpy
 https://jukin-weatherspy-2-au.samsung.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-name="The Weather Network" group-title="Weather" tvg-logo="https://i.imgur.com/V6ZUwUY.png",The Weather Network
