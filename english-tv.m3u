@@ -553,10 +553,10 @@ https://abc-news-dmd-streams-1.akamaized.net/out/v1/701126012d044971b3fa89406a44
 https://c.mjh.nz/abc-news.m3u8
 #EXTINF:-1 tvg-name="News24" group-title="News" tvg-logo="https://cf-images.ap-southeast-2.prod.boltdns.net/v1/static/5647924203001/8e3eba6d-3ed7-4687-8793-ce06bebb0f37/4f567b79-c56c-426c-91c3-0b277e41879e/1920x1080/match/image.jpg",News24
 https://skynewsau-live-premium.akamaized.net/hls/live/2105299/skynews/live.m3u8
+#EXTINF:-1 tvg-name="News24 World" group-title="News" tvg-logo="https://i.imgur.com/mzc1nJS.png",News24 World
+https://skynewsau-live-premium.akamaized.net/hls/live/2105306/skynewsextra/live_540p.m3u8
 #EXTINF:-1 tvg-name="SBS WorldWatch" group-title="News" tvg-logo="https://i.imgur.com/gCKMxrW.png",SBS WorldWatch
 http://44.32.200.142:5004/auto/v35
-#EXTINF:-1 tvg-name="Sky News Extra" group-title="News" tvg-logo="https://i.imgur.com/ZsPb8nL.png",Sky News Extra
-https://skynewsau-live-premium.akamaized.net/hls/live/2105306/skynewsextra/live_540p.m3u8
 #EXTINF:-1 tvg-name="Sky News Extra 1" group-title="News" tvg-logo="https://i.imgur.com/ZsPb8nL.png",Sky News Extra 1
 https://skynewsau-live.akamaized.net/hls/live/2002689/skynewsau-extra1/master.m3u8
 #EXTINF:-1 tvg-name="Sky News Extra 2" group-title="News" tvg-logo="https://i.imgur.com/ZsPb8nL.png",Sky News Extra 2
@@ -2843,8 +2843,6 @@ https://jmp2.uk/plu-628e685ba3811100070551a8.m3u8
 http://tvsen7.aynascope.net/hbo/index.m3u8
 #EXTINF:-1 tvg-name="HBO Hits" group-title="Movies" tvg-logo="https://static.hbo.com/2025-09/HBO_Hits_Plex_Logo_bw.svg",HBO Hits
 http://tvsen7.aynascope.net/hbo2/index.m3u8
-#EXTINF:-1 tvg-name="HBO Movies" group-title="Movies" tvg-logo="https://static.hbo.com/2025-09/HBO_Movies_Plex_Logo_bw.svg",HBO Movies
-http://23.237.104.106:8080/USA_HBO_ZONE/index.m3u8
 #EXTINF:-1 tvg-name="IFC" group-title="Movies" tvg-logo="https://i.imgur.com/bQdkyF9.png",IFC
 http://23.237.104.106:8080/USA_IFC/index.m3u8
 #EXTINF:-1 tvg-name="Kids Movie Club" group-title="Movies" tvg-logo="https://i.imgur.com/avFk0Tt.png",Kids Movie Club
@@ -3689,6 +3687,8 @@ https://amg00861-terninternation-inwild-samsungau-3qrga.amagi.tv/playlist/amg008
 https://amg00861-terninternation-inwild-samsunguk-w5wic.amagi.tv/playlist/amg00861-terninternation-inwild-samsunguk/playlist.m3u8
 #EXTINF:-1 tvg-name="INWILD" group-title="Documentary" tvg-logo="https://cdn.uc.assets.prezly.com/92770c71-9d6f-400f-8311-38e9cfec52c2/InWild_landscape-green.png",INWILD
 https://amg00861-amg00861c7-stirr-us-8227.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-name="Animal Planet HD" group-title="Documentary" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/2018_Animal_Planet_logo.svg/960px-2018_Animal_Planet_logo.svg.png",Animal Planet HD
+http://57.128.231.171:8080/317/index.m3u8
 #EXTINF:-1 tvg-name="History" group-title="Documentary" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/History_%282021%29.svg/500px-History_%282021%29.svg.png",History
 http://57.128.231.171:8080/240/index.m3u8
 #EXTINF:-1 tvg-name="History" group-title="Documentary" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/History_%282021%29.svg/500px-History_%282021%29.svg.png",History
@@ -5008,8 +5008,6 @@ https://cb0c87cc605942ff9766a4e6744bbadc.mediatailor.us-east-1.amazonaws.com/v1/
 #EXTINF:-1 tvg-name="Autentic Travel" group-title="Other" tvg-logo="https://d3b6luslimvglo.cloudfront.net/images/79/rlaxximages/channels-rescaled/icon-white/autentictravel_white.png",Autentic Travel
 https://autentic-autentictravel-1-gb.samsung.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-name="Da Vinci Asia Vietnam" group-title="Other" tvg-logo="https://i.imgur.com/iBx7K1M.png",Da Vinci Asia Vietnam
-https://freem3u.xyz/api/live/play.m3u8?vid=214
-#EXTINF:-1 tvg-name="Da Vinci Asia Vietnam" group-title="Other" tvg-logo="https://i.imgur.com/iBx7K1M.png",Da Vinci Asia Vietnam
 https://vmttv.dpdns.org/tv360/?id=davinci-hd
 #EXTINF:-1 tvg-name="Motorvision" group-title="Other" tvg-logo="https://i.imgur.com/v4kj8pI.png",Motorvision
 http://hls127.freeott.top:8080/Motorvision/video.m3u8
@@ -5101,8 +5099,6 @@ http://88.212.15.17/live/viasat3/index.m3u8
 http://88.212.15.17/live/viasat6/index.m3u8
 #EXTINF:-1 tvg-name="Viasat2" group-title="Other" tvg-logo="https://i.imgur.com/lEAhKPa.png",Viasat2
 http://88.212.15.17/live/viasat2/index.m3u8
-#EXTINF:-1 tvg-name="MNCTV HD" group-title="Other" tvg-logo="https://i.imgur.com/SK8pjQy.png",MNCTV HD
-http://202.150.172.59/MNCTV/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-name="The Indonesia Channel" group-title="Other" tvg-logo="https://i.imgur.com/jAAPgpV.png",The Indonesia Channel
 https://restreamer.indonusa.id:8443/d5f4ad43-1b5a-4b0f-8bef-5b37224ed221.m3u8
 #EXTINF:-1 tvg-name="TVRI World" group-title="Other" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/TVRIWorld.png/960px-TVRIWorld.png",TVRI World
