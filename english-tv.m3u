@@ -82,8 +82,6 @@ http://103.185.24.134:3001/SonyTenSports1/index.m3u8
 http://103.151.60.162:2122/play/a01b/index.m3u8?hls
 #EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Sports" tvg-logo="https://dtil.tmsimg.com/assets/s157593_ld_h15_aa.png?lock=720x540",Sony Sports Ten 5
 http://103.151.60.162:2122/play/a028/index.m3u8?hls
-#EXTINF:-1 tvg-name="Star Sports 1" group-title="Sports" tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/7482/1782284567482-h.jpg",Star Sports 1
-http://103.151.60.162:2122/play/a01a/index.m3u8?hls
 #EXTINF:-1 tvg-name="Star Sports 2" group-title="Sports" tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/7957/1783000567957-h.jpg",Star Sports 2
 http://103.151.60.162:2122/play/a00v/index.m3u8?hls
 #EXTINF:-1 tvg-name="Star Sports 2" group-title="Sports" tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/7957/1783000567957-h.jpg",Star Sports 2
@@ -266,6 +264,10 @@ http://23.239.31.26:8989/accnetwork/index.m3u8
 https://raycom-accdn-firetv.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-name="ACCDN" group-title="Sports" tvg-logo="https://i.imgur.com/V6Kaqha.png",ACCDN
 https://aegis-cloudfront-1.tubi.video/a1e671ae-d1c2-4e39-99c7-889e83056fd2/playlist.m3u8
+#EXTINF:-1 tvg-name="American Ninja Warrior" group-title="Sports" tvg-logo="https://raw.githubusercontent.com/RoqueDJ/iptv-svg/main/1792421696158.png",American Ninja Warrior
+https://d4whmvwm0rdvi.cloudfront.net/10007/99951318/hls/master.m3u8?ads.xumo_channelId=99951318&ads.asnw=169843&ads.afid=405342864&ads.sfid=19647852&ads.csid=xumo_web_NBCUAmericanNinjaWarrior_ssai_cro&ads._fw_is_lat=0&ads._fw_us_privacy=&ads._fw_coppa=0&ads._fw_did=a5090924-15b1-4b7f-b6cd-2f06e2ba51e1&ads._fw_vcid2=512116:a5090924-15b1-4b7f-b6cd-2f06e2ba51e1&ads._fw_app_bundle=web.xumo.com&ads._fw_app_store_url=&ads._fw_content_category=&ads._fw_content_genre=&ads._fw_content_language=en&ads._fw_content_rating=&ads._fw_deviceMake=GitHubAction&ads._fw_device_model=PythonScript&ads._fw_deviceType=3-Connected_TV&ads.appVersion=1.0.0&ads.appName=XumoPlay&ads.xumo_contentId=4063&ads.xumo_contentName=NBCUAmericanNinjaWarrior&ads.xumo_providerId=4063&ads.xumo_providerName=NBCUAmericanNinjaWarrior&ads.channelId=99951318
+#EXTINF:-1 tvg-name="American Ninja Warrior" group-title="Sports" tvg-logo="https://raw.githubusercontent.com/RoqueDJ/iptv-svg/main/1792421696158.png",American Ninja Warrior
+https://d4whmvwm0rdvi.cloudfront.net/10007/99993042/hls/master.m3u8?ads.xumo_channelId=99993042&ads.asnw=169843&ads.afid=405342864&ads.sfid=19647852&ads.csid=lgchannels_us_nbcuamericanninjawarrior_ssai_cro&ads.xumo_contentId=4063&ads.xumo_contentName=NBCUAmericanNinjaWarrior&ads.xumo_providerId=4063&ads.xumo_providerName=NBCUAmericanNinjaWarrior&ads.channelId=99993042
 #EXTINF:-1 tvg-name="beIN SPORTS XTRA" group-title="Sports" tvg-logo="https://i.ibb.co/HT49GPmB/XTRA-2.png",beIN SPORTS XTRA
 https://bein-xtra-bein.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-name="BeIN Sports XTRA" group-title="Sports" tvg-logo="https://i.ibb.co/HT49GPmB/XTRA-2.png",BeIN Sports XTRA
@@ -1846,6 +1848,8 @@ https://jmp2.uk/plu-5d51e2bceca5b4b2c0e06c50.m3u8
 https://jmp2.uk/plu-61b3b8c645b45d0007a9bb8d.m3u8
 #EXTINF:-1 tvg-name="Bondi Rescue" group-title="Entertainment" tvg-logo="https://images.pluto.tv/channels/66166989635c7500084105a2/colorLogoPNG.png",Bondi Rescue
 https://jmp2.uk/plu-66166989635c7500084105a2.m3u8
+#EXTINF:-1 tvg-name="Botflix TV" group-title="Entertainment" tvg-logo="https://botflix.tv/assets/img/botflix-mark.90c6a6f9a4.webp",Botflix TV
+https://hls.botflix.tv/tv/index.m3u8
 #EXTINF:-1 tvg-name="Bounce XL" group-title="Entertainment" tvg-logo="https://i.imgur.com/GzxgSkc.png",Bounce XL
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01438-ewscrippscompan-bouncexl-tablo/playlist.m3u8
 #EXTINF:-1 tvg-name="Bounce XL" group-title="Entertainment" tvg-logo="https://i.imgur.com/GzxgSkc.png",Bounce XL
@@ -4194,6 +4198,8 @@ https://2-fss-1.streamhoster.com/pl_122/206858-4412960-1/playlist.m3u8
 http://23.239.31.26:8989/axstv/index.m3u8
 #EXTINF:-1 tvg-name="AXS TV" group-title="Music" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/AXS_TV_logo.svg/960px-AXS_TV_logo.svg.png",AXS TV
 https://tvsen3.aynaott.com/P2fJzfsg/index.m3u8
+#EXTINF:-1 tvg-name="Botflix Radioo" group-title="Music" tvg-logo="https://botflix.tv/assets/img/botflix-mark.90c6a6f9a4.webp",Botflix Radioo
+https://hls.botflix.tv/radioo/index.m3u8
 #EXTINF:-1 tvg-name="California Music Channel" group-title="Music" tvg-logo="https://i.imgur.com/FyNot5W.png",California Music Channel
 https://cmc-cmctv-cineverse.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-name="California Music Channel" group-title="Music" tvg-logo="https://i.imgur.com/FyNot5W.png",California Music Channel
@@ -4679,7 +4685,7 @@ http://45.171.64.30:6060/play/a007/index.m3u8
 #EXTINF:-1 tvg-name="Smithsonian Channel Selects" group-title="Science" tvg-logo="https://i.imgur.com/Kt5j8Vr.png",Smithsonian Channel Selects
 https://jmp2.uk/plu-5f21ea08007a49000762d349.m3u8
 #EXTGRP:Weather
-#EXTINF:-1 tvg-name="Sky News Weather Channel" group-title="Weather" tvg-logo="https://i.imgur.com/FKg6AQr.png",Sky News Weather Channel
+#EXTINF:-1 tvg-name="News24 Weather" group-title="Weather" tvg-logo="https://i.imgur.com/HkBec1e.png",News24 Weather
 https://skynewsau-live-premium.akamaized.net/hls/live/2105305/skynewsweather/live_540p.m3u8
 #EXTINF:-1 tvg-name="WeatherSpy" group-title="Weather" tvg-logo="https://i.imgur.com/GTxN2nH.png",WeatherSpy
 https://jukin-weatherspy-2-au.samsung.wurl.tv/playlist.m3u8
@@ -6315,8 +6321,6 @@ https://fnx.lls.pbs.org/index.m3u8
 https://reflect-vod-fcgov.cablecast.tv/live-9/live/stream-1/live.m3u8
 #EXTINF:-1 tvg-name="Fort Pierce Live Stream (Fort Pierce FL)" group-title="Other" tvg-logo="https://i.imgur.com/2ChoSsi.png",Fort Pierce Live Stream (Fort Pierce FL)
 https://edge-f.swagit.com/live/fortpiercefl/live-1-a/playlist.m3u8
-#EXTINF:-1 tvg-name="Fox" group-title="Other" tvg-logo="https://static.wikia.nocookie.net/tvstations/images/8/8e/KBSIO6.png",Fox
-http://stream.cammonitorplus.net/1752/index.m3u8
 #EXTINF:-1 tvg-name="FOX 13 Seattle WA (KCPQ)" group-title="Other" tvg-logo="https://static.wikia.nocookie.net/tvstations/images/8/8e/KBSIO6.png",FOX 13 Seattle WA (KCPQ)
 https://aegis-cloudfront-1.tubi.video/cc394198-7bde-43e8-b186-875bc0eb3037/index.m3u8
 #EXTINF:-1 tvg-name="FOX 23 Cape Girardeau MO (KBSI-DT1)" group-title="Other" tvg-logo="https://static.wikia.nocookie.net/tvstations/images/8/8e/KBSIO6.png",FOX 23 Cape Girardeau MO (KBSI-DT1)
@@ -6451,6 +6455,8 @@ https://s3-us-west-2.amazonaws.com/beverly-hills-high-school.castus-vod/live/ch1
 https://brightonco.cablecast.tv/live-4/live/live.m3u8
 #EXTINF:-1 tvg-name="KCAT Public Media TV" group-title="Other" tvg-logo="https://i.imgur.com/ZAypRkk.png",KCAT Public Media TV
 https://reflect-kcat-live.cablecast.tv/live-2/live/live.m3u8
+#EXTINF:-1 tvg-name="KDFW-DT1" group-title="Other" tvg-logo="https://static.wikia.nocookie.net/tvstations/images/8/8e/KBSIO6.png",KDFW-DT1
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-fox4dallaskdfw-vizious/playlist.m3u8
 #EXTINF:-1 tvg-name="Kern County Television" group-title="Other" tvg-logo="https://i.imgur.com/AJcuBCF.png",Kern County Television
 https://cdn3.wowza.com/5/dk84U1p2UUdoMGxT/kern/G0169_003/playlist.m3u8
 #EXTINF:-1 tvg-name="KIIO-LD 10.1" group-title="Other" tvg-logo="https://i.imgur.com/wkzwXFO.png",KIIO-LD 10.1
