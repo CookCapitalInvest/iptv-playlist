@@ -673,6 +673,8 @@ https://mumbai-edge.smartplaytv.in/CVREnglishNews/index.m3u8
 https://cdn.pishow.tv/ott/live/425/master.m3u8
 #EXTINF:-1 tvg-name="DD Mizoram" group-title="News" tvg-logo="https://i.imgur.com/I5zT1DG.png",DD Mizoram
 https://d2lk5u59tns74c.cloudfront.net/out/v1/eea48c6b61074052a2fa8532ff795ff1/index.m3u8
+#EXTINF:-1 tvg-name="Global India" group-title="News" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Global_India.png",Global India
+https://server.livelegitpro.in/globalindiatv/globalindiatv/video.m3u8
 #EXTINF:-1 tvg-name="Global Punjab" group-title="News" tvg-logo="https://i.imgur.com/WDLqcWW.png",Global Punjab
 https://server.livelegitpro.in/globalpunjab/globalpunjab/index.m3u8
 #EXTINF:-1 tvg-name="Hornbill TV" group-title="News" tvg-logo="https://i.imgur.com/7Y4vQnG.png",Hornbill TV
@@ -2687,18 +2689,12 @@ https://jmp2.uk/plu-62bebc3459624e00078209c3.m3u8
 https://jmp2.uk/plu-62beb44e3afd120007915d1b.m3u8
 #EXTINF:-1 tvg-name="Viafree Movies" group-title="Movies" tvg-logo="https://images.pluto.tv/channels/62bebc3459624e00078209c3/colorLogoPNG.png",Viafree Movies
 https://jmp2.uk/plu-62f64ec9eb1045000728cad6.m3u8
-#EXTINF:-1 tvg-name="AXN Asia Malaysia" group-title="Movies" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d0/AXN_Logo_2015.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",AXN Asia Malaysia
-https://2x2.me/5aE8sA
 #EXTINF:-1 tvg-name="AXN Asia Taiwan" group-title="Movies" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d0/AXN_Logo_2015.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",AXN Asia Taiwan
 http://125.227.210.55:4050/VideoInput/play.ts
 #EXTINF:-1 tvg-name="Cinemax Asia HD" group-title="Movies" tvg-logo="https://freem3u.xyz/static/images/global/cinemax.png",Cinemax Asia HD
 http://125.227.210.55:1001/VideoInput/play.ts
-#EXTINF:-1 tvg-name="HBO Asia HD" group-title="Movies" tvg-logo="https://freem3u.xyz/static/images/global/hbo.png",HBO Asia HD
-https://2x2.me/yTKXaE
 #EXTINF:-1 tvg-name="HBO Asia Taiwan" group-title="Movies" tvg-logo="https://freem3u.xyz/static/images/global/hbo.png",HBO Asia Taiwan
 http://125.227.210.55:1003/VideoInput/play.ts
-#EXTINF:-1 tvg-name="HBO Hits Asia HD" group-title="Movies" tvg-logo="https://i.ibb.co/Mkzs7g3J/IMG-2195.png",HBO Hits Asia HD
-https://2x2.me/BbwzPx
 #EXTINF:-1 tvg-name="HITS Movies" group-title="Movies" tvg-logo="https://i.imgur.com/kyE3vXf.png",HITS Movies
 http://103.151.60.162:2122/play/a01h/index.m3u8?hls
 #EXTINF:-1 tvg-name="TVCARiB Cinema" group-title="Movies" tvg-logo="https://i.imgur.com/fvGlwKo.png",TVCARiB Cinema
@@ -3066,6 +3062,8 @@ https://5f22d76e220e1.streamlock.net/iuniortv/iuniortv/chunklist_w774879328.m3u8
 https://5f22d76e220e1.streamlock.net/iuniortv/iuniortv/playlist.m3u8
 #EXTINF:-1 tvg-name="Nick Jr." group-title="Kids" tvg-logo="https://i.imgur.com/6p3eFgf.png",Nick Jr.
 http://102.129.186.182:81/nick/index.m3u8
+#EXTINF:-1 tvg-name="Nick Jr." group-title="Kids" tvg-logo="https://i.imgur.com/6p3eFgf.png",Nick Jr.
+https://streamer-jv9.pages.dev/italy/nickjr.m3u
 #EXTINF:-1 tvg-name="Akili Kids!" group-title="Kids" tvg-logo="https://i.imgur.com/xFm2co6.png",Akili Kids!
 https://m6.livecdn.io/akilikids.co.ke/akilikids.smil/playlist.m3u8
 #EXTINF:-1 tvg-name="Cartoon Network" group-title="Kids" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/960px-Cartoon_Network_2010_logo.svg.png",Cartoon Network
@@ -5119,6 +5117,8 @@ https://cdn.pishow.tv/ott/live/8/master.m3u8
 https://drk6xq0vhn.gpcdn.net/live/discovery_turbo_abr/index.m3u8
 #EXTINF:-1 tvg-name="GoodNews TV" group-title="Other" tvg-logo="https://i.imgur.com/ZrvoGqS.png",GoodNews TV
 https://bpgdlwwar3ze-hls-live.wmncdn.net/goodnews/live.stream/playlist.m3u8
+#EXTINF:-1 tvg-name="Grace TV" group-title="Other" tvg-logo="https://i.imgur.com/i3Anlid.png",Grace TV
+https://samitaorigin.tangotv.in/GRACETV/SAMITAORIGIN/index.m3u8
 #EXTINF:-1 tvg-name="Harvest USA" group-title="Other",Harvest USA
 https://7mbd4ogkr3gx-hls-live.wmncdn.net/harvestusa/d57ffba6564caea2fee3f4085f19a098.sdp/playlist.m3u8
 #EXTINF:-1 tvg-name="Hope Channel India" group-title="Other" tvg-logo="https://i.imgur.com/wPzPUrK.png",Hope Channel India
