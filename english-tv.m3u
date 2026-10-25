@@ -326,12 +326,12 @@ http://168.228.44.241:9998/play/a0dz/index.m3u8
 https://barinaslive1.boldmss.com/ESPN/ESPN.isml/ESPN.mpd?
 #EXTINF:-1 tvg-name="ESPN HD" group-title="Sports" tvg-logo="https://imgx.fubo.tv/station_logos/espn-hd_c.png",ESPN HD
 http://85.237.89.160:9590/usa-s/ESPN-HD/index.m3u8
-#EXTINF:-1 tvg-name="ESPN Latin America" group-title="Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/960px-ESPN_wordmark.svg.png",ESPN Latin America
-https://barinaslive1.boldmss.com/ESPN/ESPN.isml/ESPN.m3u8
 #EXTINF:-1 tvg-name="ESPN Latin America Argentina" group-title="Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/960px-ESPN_wordmark.svg.png",ESPN Latin America Argentina
 https://bantel-cdn1.iptvperu.tv:1936/btnscrtn/espn-mux/chunks.m3u8
 #EXTINF:-1 tvg-name="ESPN Latin America Colombia" group-title="Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/960px-ESPN_wordmark.svg.png",ESPN Latin America Colombia
 http://190.61.47.54:8000/play/a004/index.m3u8
+#EXTINF:-1 tvg-name="ESPN Latin America Mexico" group-title="Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/960px-ESPN_wordmark.svg.png",ESPN Latin America Mexico
+http://168.228.44.241:9997/play/a06p/index.m3u8
 #EXTINF:-1 tvg-name="ESPN8 The Ocho" group-title="Sports" tvg-logo="https://images.fubo.tv/channel-config-ui/station-logos/on-dark/espn_8_the_ocho_bw.png",ESPN8 The Ocho
 https://d3b6q2ou5kp8ke.cloudfront.net/ESPNTheOcho.m3u8
 #EXTINF:-1 tvg-name="ESPNU HD" group-title="Sports" tvg-logo="https://i.imgur.com/HiBrysh.png",ESPNU HD
@@ -1027,6 +1027,8 @@ https://rumble.com/live-hls/6v67mu/playlist.m3u8
 https://stream.vocl.com/hls/lindelltv/index.m3u8
 #EXTINF:-1 tvg-name="LiveNOW from FOX" group-title="News" tvg-logo="https://i.imgur.com/1JnyzHv.png",LiveNOW from FOX
 https://fox-foxnewsnow-vizio.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-name="LiveNOW from FOX" group-title="News" tvg-logo="https://i.imgur.com/1JnyzHv.png",LiveNOW from FOX
+https://vid.hls.protv.ro/liveibu5/liveibu5_highw/index.m3u8?1
 #EXTINF:-1 tvg-name="LiveNOW from FOX" group-title="News" tvg-logo="https://i.imgur.com/1JnyzHv.png",LiveNOW from FOX
 https://jmp2.uk/plu-63d025db4e83e700086eaa96.m3u8
 #EXTINF:-1 tvg-name="MS NOW" group-title="News" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/MS_NOW_logo.svg/960px-MS_NOW_logo.svg.png",MS NOW
@@ -2378,10 +2380,10 @@ https://7e5c93fc.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdX
 https://adf47c43.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/U2Ftc3VuZy1nYl9UaW55SG91c2VOYXRpb25fSExT/playlist.m3u8
 #EXTINF:-1 tvg-name="TMZ" group-title="Entertainment" tvg-logo="https://i.imgur.com/eLIe7Va.png",TMZ
 https://aegis-cloudfront-1.tubi.video/57c1fa3c-566b-4998-b6de-d6de67031d99/index.m3u8
+#EXTINF:-1 tvg-name="TNT Novelas" group-title="Entertainment" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/TNT_Novelas_2025.svg/1920px-TNT_Novelas_2025.svg.png",TNT Novelas
+http://190.93.224.42/TNT-NOVELAS/index.m3u8
 #EXTINF:-1 tvg-name="TNT Novelas Brazil" group-title="Entertainment" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/TNT_Novelas_2025.svg/1920px-TNT_Novelas_2025.svg.png",TNT Novelas Brazil
 http://45.162.64.114/TNT_NOVELAS/index.m3u8
-#EXTINF:-1 tvg-name="TNT Novelas Brazil" group-title="Entertainment" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/TNT_Novelas_2025.svg/1920px-TNT_Novelas_2025.svg.png",TNT Novelas Brazil
-http://168.197.104.22/TNT_NOVELAS/index.m3u8
 #EXTINF:-1 tvg-name="TNT Novelas Colombia" group-title="Entertainment" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/TNT_Novelas_2025.svg/1920px-TNT_Novelas_2025.svg.png",TNT Novelas Colombia
 http://190.61.47.54:8000/play/a02f/index.m3u8
 #EXTINF:-1 tvg-name="TNT Series Latin America" group-title="Entertainment" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/75/TNT_Series_Logo_2016.png",TNT Series Latin America
@@ -3657,18 +3659,8 @@ https://drk6xq0vhn.gpcdn.net/live/animal_planet_sd_abr/index.m3u8
 https://drk6xq0vhn.gpcdn.net/live/animal_planet_hd_abr/index.m3u8
 #EXTINF:-1 tvg-name="DocuBay TV" group-title="Documentary" tvg-logo="https://i.imgur.com/OGyeLLR.png",DocuBay TV
 https://cc-mgr91yrk4pehy.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-mgr91yrk4pehy/playlist.m3u8
-#EXTINF:-1 tvg-name="History TV18" group-title="Documentary" tvg-logo="https://dtil.tmsimg.com/assets/s143133_ld_h15_aa.png?lock=720x540",History TV18
-http://103.151.60.162:2122/play/a00y/index.m3u8?hls
-#EXTINF:-1 tvg-name="History TV18 HD" group-title="Documentary" tvg-logo="https://dtil.tmsimg.com/assets/s143133_ld_h15_aa.png?lock=720x540",History TV18 HD
-https://techtraveleat.in/stream.m3u8?id=historytv18eng
 #EXTINF:-1 tvg-name="Investigation Discovery" group-title="Documentary" tvg-logo="https://dtil.tmsimg.com/assets/s157811_ld_h15_aa.png?lock=720x540",Investigation Discovery
 https://drk6xq0vhn.gpcdn.net/live/id_hd_abr/index.m3u8
-#EXTINF:-1 tvg-name="National Geographic HD" group-title="Documentary" tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/3329/1786019023329-h.jpg",National Geographic HD
-http://103.185.24.134:3001/NATGEO-HD/index.m3u8
-#EXTINF:-1 tvg-name="National Geographic Wild HD" group-title="Documentary" tvg-logo="https://img10.hotstar.com/image/upload/sources/r1/cms/prod/5075/1785250005075-h.jpg",National Geographic Wild HD
-http://103.185.24.134:3001/NATGEO-WILD-HD/index.m3u8
-#EXTINF:-1 tvg-name="National Geographic Wild HD" group-title="Documentary" tvg-logo="https://img10.hotstar.com/image/upload/sources/r1/cms/prod/5075/1785250005075-h.jpg",National Geographic Wild HD
-http://103.151.60.162:2122/play/a01f/index.m3u8?hls
 #EXTINF:-1 tvg-name="Sony BBC Earth HD" group-title="Documentary" tvg-logo="https://dtil.tmsimg.com/assets/s143800_ld_h15_aa.png?lock=720x540",Sony BBC Earth HD
 http://103.185.24.134:3001/SONY-BBC/index.m3u8
 #EXTINF:-1 tvg-name="DocuBox" group-title="Documentary" tvg-logo="https://i.imgur.com/pX4U9OG.png",DocuBox
@@ -4799,6 +4791,8 @@ https://d1k6kax80wecy5.cloudfront.net/RLnAKY/index.m3u8
 https://d1k6kax80wecy5.cloudfront.net/WFqZJc/index.m3u8
 #EXTINF:-1 tvg-name="CTB Perth" group-title="Other" tvg-logo="https://i.imgur.com/VB8gtCy.jpeg",CTB Perth
 https://live.ctbperth.net.au/hls/0/stream.m3u8
+#EXTINF:-1 tvg-name="DG:TV" group-title="Other" tvg-logo="https://dg.church/tile-dgtv.jpg",DG:TV
+https://mdn.dg.church/673ac57a073a4-1/index.m3u8
 #EXTINF:-1 tvg-name="Expo Channel" group-title="Other" tvg-logo="https://i.imgur.com/2KzCShW.png",Expo Channel
 https://tvsnhlslivetest.akamaized.net/hls/live/2034711/EXPO-MSL4/master.m3u8
 #EXTINF:-1 tvg-name="Hope Channel Australia" group-title="Other" tvg-logo="https://i.imgur.com/8Zs7rDm.png",Hope Channel Australia
@@ -5015,6 +5009,8 @@ https://ssai.aniview.com/api/v1/hls/stream.m3u8?AVS_SSAIID=67c0c39764ad6f7dab07a
 https://fl718492-exthls-p1.flovp.com/fl718492/live/live.m3u8
 #EXTINF:-1 tvg-name="MyZen TV" group-title="Other" tvg-logo="https://i.imgur.com/fIi8o0C.png",MyZen TV
 https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01255-secomcofites-my-myzen-en-plex/playlist.m3u8
+#EXTINF:-1 tvg-name="TFX" group-title="Other" tvg-logo="https://i.imgur.com/d91GcVf.png",TFX
+http://149.62.177.107:9999/TFX/index.m3u8
 #EXTINF:-1 tvg-name="TV5Monde Pacific" group-title="Other" tvg-logo="https://i.imgur.com/mfZOYZI.png",TV5Monde Pacific
 http://103.190.232.129/stream/tvb/pacifique/master.m3u8?p=967e33767f592e1aaf3d4019f38f380bf784e113b193d89c412d047059d6300d&u=Oleg
 #EXTINF:-1 tvg-name="TV5Monde Pacific" group-title="Other" tvg-logo="https://i.imgur.com/mfZOYZI.png",TV5Monde Pacific
@@ -6259,6 +6255,8 @@ https://cdn3.wowza.com/1/QmVNUVhTNTZSS3Uz/YWQ0aHpi/hls/live/playlist.m3u8
 https://cdn3.wowza.com/1/YW5wSWZiRGd2eFlU/bGV0aVBq/hls/live/playlist.m3u8
 #EXTINF:-1 tvg-name="Extrema TV" group-title="Other" tvg-logo="https://i.imgur.com/Z1QVkqu.png",Extrema TV
 http://livestreamcdn.net:1935/ExtremaTV/ExtremaTV/playlist.m3u8
+#EXTINF:-1 tvg-name="Fairground AI Creator TV" group-title="Other" tvg-logo="https://raw.githubusercontent.com/RoqueDJ/iptv-svg/main/1792454211883.png",Fairground AI Creator TV
+https://jmp2.uk/rok-b484db42f3d31b6dc2f604d453c694a0.m3u8
 #EXTINF:-1 tvg-name="Faith TV" group-title="Other" tvg-logo="https://i.imgur.com/lUBnKK1.png",Faith TV
 https://faithnow-hls.secdn.net/faithnow-holland-channel/play/FaithTV.smil/playlist.m3u8
 #EXTINF:-1 tvg-name="Fashion Finds" group-title="Other" tvg-logo="https://i.imgur.com/GvDRZgq.png",Fashion Finds
