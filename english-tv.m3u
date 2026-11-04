@@ -23,8 +23,6 @@ https://636ffd31f0e12.streamlock.net/RacingStream1/RacingStream1/playlist.m3u8
 #EXTINF:-1 tvg-name="Fight Network" group-title="Sports" tvg-logo="https://i.imgur.com/vlKPZHR.png",Fight Network
 https://d12a2vxqkkh1bo.cloudfront.net/hls/main.m3u8
 #EXTINF:-1 tvg-name="Fight Network" group-title="Sports" tvg-logo="https://i.imgur.com/vlKPZHR.png",Fight Network
-https://amg00966-amg00966c10-amgplt0081.playout.now3.amagi.tv/playlist/amg00966-amg00966c10-amgplt0081/playlist.m3u8
-#EXTINF:-1 tvg-name="Fight Network" group-title="Sports" tvg-logo="https://i.imgur.com/vlKPZHR.png",Fight Network
 https://a-cdn.klowdtv.com/live2/fight_720p/playlist.m3u8
 #EXTINF:-1 tvg-name="Game+" group-title="Sports" tvg-logo="https://i.imgur.com/Lj69WbR.png",Game+
 https://a-cdn.klowdtv.com/live2/fntsy_720p/playlist.m3u8
@@ -172,10 +170,6 @@ https://amg01074-fueltv-fueltvau-samsungau-g09kq.amagi.tv/playlist/amg01074-fuel
 https://amg01074-fueltv-fueltvnz-samsungnz-i8ani.amagi.tv/playlist/amg01074-fueltv-fueltvnz-samsungnz/playlist.m3u8
 #EXTINF:-1 tvg-name="FUEL TV" group-title="Sports" tvg-logo="https://i.imgur.com/I8mviBy.png",FUEL TV
 https://amg01074-fueltv-fueltvemeaen-rakuten-b6j62.amagi.tv/hls/amagi_hls_data_rakutenAA-fueltvemeaen/CDN/master.m3u8
-#EXTINF:-1 tvg-name="AntenaPlay Events" group-title="Sports" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/8/87/Antena_Play_symbol_white_2022.svg/revision/latest/scale-to-width-down/1000?cb=20251128201145",AntenaPlay Events
-https://live4dai.antenaplay.ro/live2_sdi09/live2_sdi09_600k.m3u8
-#EXTINF:-1 tvg-name="NHL AntenaPlay" group-title="Sports" tvg-logo="https://assets.antenaplay.ro/2024/10/25/SN0nevshXwKDcZ2Tw1jm.png",NHL AntenaPlay
-https://live4dai.antenaplay.ro/live2_sdi03/live2_sdi03_600k.m3u8
 #EXTINF:-1 tvg-name="MMA TV.com" group-title="Sports" tvg-logo="https://i.imgur.com/QhdxNsB.png",MMA TV.com
 https://streams2.sofast.tv/vglive-sk-462904/playlist.m3u8
 #EXTINF:-1 tvg-name="MMA-TV.com" group-title="Sports" tvg-logo="https://i.imgur.com/QhdxNsB.png",MMA-TV.com
@@ -2595,8 +2589,6 @@ https://cc-8hy4a26pz2uos.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da6
 http://103.151.60.162:2122/play/a02w/index.m3u8?hls
 #EXTINF:-1 tvg-name="Sony Pix HD" group-title="Movies" tvg-logo="https://dtil.tmsimg.com/assets/s143803_ld_h15_aa.png?lock=720x540",Sony Pix HD
 http://103.151.60.162:2122/play/a01d/index.m3u8?hls
-#EXTINF:-1 tvg-name="Star Movies HD" group-title="Movies" tvg-logo="https://dtil.tmsimg.com/assets/s143829_ld_h15_aa.png?lock=720x540",Star Movies HD
-http://103.151.60.162:2122/play/a02k/index.m3u8?hls
 #EXTINF:-1 tvg-name="iFilm English" group-title="Movies" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b9/IFILM.png",iFilm English
 https://live.presstv.co.uk/hls/ifilmen.m3u8
 #EXTINF:-1 tvg-name="CinemaWorld" group-title="Movies" tvg-logo="https://i.imgur.com/D2qNVZ7.png",CinemaWorld
@@ -3023,8 +3015,6 @@ https://jmp2.uk/plu-6654adb1f99922000854388c.m3u8
 http://23.237.104.106:8080/USA_SYFY/index.m3u8
 #EXTINF:-1 tvg-name="SYFY" group-title="Movies" tvg-logo="https://i.imgur.com/4fMWhUE.png",SYFY
 http://tvsen7.aynascope.net/syfy/index.m3u8
-#EXTINF:-1 tvg-name="The Film Detective" group-title="Movies" tvg-logo="https://i.imgur.com/yfOwmsP.png",The Film Detective
-https://cinedigm-entertainment-corp-thefilmdetective-1-us.ono.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-name="The Wild Wild West" group-title="Movies" tvg-logo="https://images.pluto.tv/channels/664e640a0120f40008be4582/colorLogoPNG.png",The Wild Wild West
 https://jmp2.uk/plu-664e640a0120f40008be4582.m3u8
 #EXTINF:-1 tvg-name="TV Land Drama" group-title="Movies" tvg-logo="https://i.imgur.com/y1rXIAS.png",TV Land Drama
@@ -3620,6 +3610,8 @@ http://api.toonamiaftermath.com:3000/pst/playlist.m3u8
 https://streaming.onnethn.com/TOONCAST/playlist.m3u8
 #EXTINF:-1 tvg-name="Tooncast" group-title="Kids" tvg-logo="https://i.imgur.com/3yXRbQy.png",Tooncast
 http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/69.m3u8
+#EXTINF:-1 tvg-name="Tooncast" group-title="Kids" tvg-logo="https://i.imgur.com/3yXRbQy.png",Tooncast
+http://181.224.255.210:8001/play/a0ou/index.m3u8?hls
 #EXTINF:-1 tvg-name="ToonGoggles" group-title="Kids" tvg-logo="https://i.imgur.com/JMnxswq.png",ToonGoggles
 https://amg01329-otterainc-toongoggles-samsungau-ad-4c.amagi.tv/playlist/amg01329-otterainc-toongoggles-samsungau/playlist.m3u8
 #EXTINF:-1 tvg-name="ToonGoggles" group-title="Kids" tvg-logo="https://i.imgur.com/JMnxswq.png",ToonGoggles
