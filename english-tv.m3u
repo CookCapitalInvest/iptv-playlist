@@ -272,6 +272,8 @@ https://d4whmvwm0rdvi.cloudfront.net/10007/99951318/hls/master.m3u8?ads.xumo_cha
 https://d4whmvwm0rdvi.cloudfront.net/10007/99993042/hls/master.m3u8?ads.xumo_channelId=99993042&ads.asnw=169843&ads.afid=405342864&ads.sfid=19647852&ads.csid=lgchannels_us_nbcuamericanninjawarrior_ssai_cro&ads.xumo_contentId=4063&ads.xumo_contentName=NBCUAmericanNinjaWarrior&ads.xumo_providerId=4063&ads.xumo_providerName=NBCUAmericanNinjaWarrior&ads.channelId=99993042
 #EXTINF:-1 tvg-name="American Ninja Warrior" group-title="Sports" tvg-logo="https://raw.githubusercontent.com/RoqueDJ/iptv-svg/main/1792421696158.png",American Ninja Warrior
 https://xumo-drct-ch812-n4996.fast.nbcuni.com/live/master.m3u8
+#EXTINF:-1 tvg-name="beIN Sports USA" group-title="Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d6/BeIN_Sports_logo_%28vertical_version%29.svg",beIN Sports USA
+https://tvsen6.aynaott.com/beinsports/index.m3u8
 #EXTINF:-1 tvg-name="beIN SPORTS XTRA" group-title="Sports" tvg-logo="https://i.ibb.co/HT49GPmB/XTRA-2.png",beIN SPORTS XTRA
 https://bein-xtra-bein.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-name="BeIN Sports XTRA" group-title="Sports" tvg-logo="https://i.ibb.co/HT49GPmB/XTRA-2.png",BeIN Sports XTRA
@@ -4621,6 +4623,8 @@ https://amg01077-gusto-gustous-firetv.amagi.tv/playlist.m3u8
 https://e75fc053c0d2406fb74cdd71d77e1a7f.mediatailor.us-east-1.amazonaws.com/v1/master/f4e8c53a8367a5b58e20ce054ea3ce25a3e904d3/RakutenTV-eu_GustoTV/playlist.m3u8
 #EXTINF:-1 tvg-name="Gusto TV" group-title="Cooking" tvg-logo="https://i.imgur.com/swUX3hQ.png",Gusto TV
 https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01077-gustoworldwidem-gustotvnz-samsungnz/playlist.m3u8
+#EXTINF:-1 tvg-name="Chefi.ro" group-title="Cooking" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/1/1c/Chefi.ro_2026.png",Chefi.ro
+https://live77cdn2.antenaplay.ro/live2_aws4_sdi13/live2_aws4_sdi13.m3u8
 #EXTINF:-1 tvg-name="Boligkjøp i blinde" group-title="Cooking" tvg-logo="https://images.pluto.tv/channels/63c6a1c46d126a000760b91c/colorLogoPNG.png",Boligkjøp i blinde
 https://jmp2.uk/plu-63c6a1c46d126a000760b91c.m3u8
 #EXTINF:-1 tvg-name="Boligkøb i blinde" group-title="Cooking" tvg-logo="https://images.pluto.tv/channels/63c6a27a4faf1c0007b48f7b/colorLogoPNG.png",Boligkøb i blinde
