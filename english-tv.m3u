@@ -46,12 +46,8 @@ https://live20.bozztv.com/dvrfl06/astv/astv-barca/index.m3u8
 http://88.212.15.50/live/real_madrid_tv/index.m3u8
 #EXTINF:-1 tvg-name="Eurosport" group-title="Sports" tvg-logo="https://i.imgur.com/s4jDnJh.png",Eurosport
 http://103.253.74.210:7070/stream/122/index.m3u8
-#EXTINF:-1 tvg-name="Eurosport 1 Bulgaria" group-title="Sports" tvg-logo="https://i.imgur.com/olQJgm7.png",Eurosport 1 Bulgaria
-http://213.91.179.28:8000/play/a05y
-#EXTINF:-1 tvg-name="Eurosport 1 Czechia" group-title="Sports" tvg-logo="https://i.imgur.com/olQJgm7.png",Eurosport 1 Czechia
-http://88.212.7.14/live/test_esp1_hevc_tizen/playlist.m3u8
-#EXTINF:-1 tvg-name="Eurosport 1 Germany" group-title="Sports" tvg-logo="https://i.imgur.com/olQJgm7.png",Eurosport 1 Germany
-http://90.183.52.46:4000/play/a06v/index.m3u8
+#EXTINF:-1 tvg-name="Eurosport 1 UK" group-title="Sports" tvg-logo="https://i.imgur.com/olQJgm7.png",Eurosport 1 UK
+http://85.117.37.43/eurosport1/index.m3u8
 #EXTINF:-1 tvg-name="Eurosport 2 Bulgaria" group-title="Sports" tvg-logo="https://i.imgur.com/f56dHgR.png",Eurosport 2 Bulgaria
 http://213.91.179.28:8000/play/a04b
 #EXTINF:-1 tvg-name="Eurosport 2 Czechia" group-title="Sports" tvg-logo="https://i.imgur.com/f56dHgR.png",Eurosport 2 Czechia
@@ -66,6 +62,8 @@ https://mumbai-edge.smartplaytv.in/TraceSport/index.m3u8
 https://channels.trace.plus/Traceprod/TRACE_SPORT_STARS_hd/index.m3u8
 #EXTINF:-1 tvg-name="Trace Sport Stars (Australia)" group-title="Sports" tvg-logo="https://i.imgur.com/FabFP5A.png",Trace Sport Stars (Australia)
 https://lightning-tracesport-samsungau.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-name="Setanta Sports+ Georgia" group-title="Sports" tvg-logo="https://i.imgur.com/ZtoZQUV.png",Setanta Sports+ Georgia
+http://85.117.61.84/setanta2/index.m3u8
 #EXTINF:-1 tvg-name="Setanta Sports 1 Eurasia" group-title="Sports" tvg-logo="https://i.imgur.com/zlJK7ca.png",Setanta Sports 1 Eurasia
 http://stream.mcquack.net/234/index.m3u8
 #EXTINF:-1 tvg-name="Setanta Sports 2 Eurasia" group-title="Sports" tvg-logo="https://i.imgur.com/ouHunnK.png",Setanta Sports 2 Eurasia
@@ -146,12 +144,16 @@ https://amg01074-fueltv-fueltvau-samsungau-g09kq.amagi.tv/playlist/amg01074-fuel
 https://amg01074-fueltv-fueltvnz-samsungnz-i8ani.amagi.tv/playlist/amg01074-fueltv-fueltvnz-samsungnz/playlist.m3u8
 #EXTINF:-1 tvg-name="FUEL TV" group-title="Sports" tvg-logo="https://i.imgur.com/I8mviBy.png",FUEL TV
 https://amg01074-fueltv-fueltvemeaen-rakuten-b6j62.amagi.tv/hls/amagi_hls_data_rakutenAA-fueltvemeaen/CDN/master.m3u8
+#EXTINF:-1 tvg-name="beIN Sports 1" group-title="Sports" tvg-logo="https://i.imgur.com/Vtk2cGI.png",beIN Sports 1
+https://vg162.adcdsd123321.shop/7.m3u8
 #EXTINF:-1 tvg-name="AntenaPlay Events" group-title="Sports" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/8/87/Antena_Play_symbol_white_2022.svg/revision/latest/scale-to-width-down/1000?cb=20251128201145",AntenaPlay Events
 https://live77cdn2.antenaplay.ro/live2_sport07/live2_sport07_3500k.m3u8
 #EXTINF:-1 tvg-name="AntenaPlay Events" group-title="Sports" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/8/87/Antena_Play_symbol_white_2022.svg/revision/latest/scale-to-width-down/1000?cb=20251128201145",AntenaPlay Events
 https://live77cdn2.antenaplay.ro/live2_srt9/live2_srt9_3000k.m3u8
 #EXTINF:-1 tvg-name="AntenaPlay Events" group-title="Sports" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/8/87/Antena_Play_symbol_white_2022.svg/revision/latest/scale-to-width-down/1000?cb=20251128201145",AntenaPlay Events
 https://live77cdn2.antenaplay.ro/live2_sdi09/live2_sdi09_2600k.m3u8
+#EXTINF:-1 tvg-name="Formula 1 AntenaPlay" group-title="Sports" tvg-logo="https://assets.antenaplay.ro/2024/02/23/XUKfJwir4MxNeP4nHtG7.png",Formula 1 AntenaPlay
+https://stream1.antenaplay.ro/promo/formula-1-las-vegas-20-2211/chunklist.m3u8
 #EXTINF:-1 tvg-name="Voyo Events" group-title="Sports" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/d/df/Voyo_2026.svg/revision/latest/scale-to-width-down/1000?cb=20261006171646",Voyo Events
 http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-ro-protv-plus5/live_fullhd?offsetSeconds=0
 #EXTINF:-1 tvg-name="MMA TV.com" group-title="Sports" tvg-logo="https://i.imgur.com/QhdxNsB.png",MMA TV.com
@@ -1241,7 +1243,7 @@ https://jmp2.uk/plu-5e393d5c696b3b0009775c8b.m3u8
 #EXTINF:-1 tvg-name="The Yellow Couch with Jeremy Lynch" group-title="Entertainment" tvg-logo="https://images.pluto.tv/channels/68e8ffee9d1d49e672fe790f/colorLogoPNG_1761768607111.png",The Yellow Couch with Jeremy Lynch
 https://jmp2.uk/plu-68e8ffee9d1d49e672fe790f.m3u8
 #EXTINF:-1 tvg-name="Turismo HD" group-title="Entertainment" tvg-logo="https://gia.tv/streams/pptv/208343.jpg",Turismo HD
-https://live20.bozztv.com/giatvplayout7/giatv-208343/playlist.m3u8
+https://183.giatvcdn.com/giatvplayout7/giatv-208343/playlist.m3u8
 #EXTINF:-1 tvg-name="XPTV US" group-title="Entertainment" tvg-logo="https://i.imgur.com/1m7kDmc.png",XPTV US
 https://janus.xpbroadcasting.com:8443/hls/xptvUS.m3u8
 #EXTINF:-1 tvg-name="XPTV2" group-title="Entertainment" tvg-logo="https://i.imgur.com/74Z8ATB.png",XPTV2
@@ -3059,7 +3061,7 @@ https://jmp2.uk/plu-64edf6eaa7ec0d000812f58c.m3u8
 #EXTINF:-1 tvg-name="Totally Turtles" group-title="Kids" tvg-logo="https://images.pluto.tv/channels/5d6792bd6be2998ad0ccce30/colorLogoPNG.png",Totally Turtles
 https://jmp2.uk/plu-656ef4af4261ca00083c8f37.m3u8
 #EXTINF:-1 tvg-name="Tom And Jerry" group-title="Kids" tvg-logo="https://gia.tv/streams/pptv/208314.jpg?1750373428",Tom And Jerry
-https://live20.bozztv.com/giatvplayout7/giatv-208314/playlist.m3u8
+https://183.giatvcdn.com/giatvplayout7/giatv-208314/playlist.m3u8
 #EXTINF:-1 tvg-name="JimJam" group-title="Kids" tvg-logo="https://i.imgur.com/ODhkYyx.png",JimJam
 http://88.212.7.14/live/jim_jam_hun/index.m3u8
 #EXTINF:-1 tvg-name="TeenNick" group-title="Kids" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/TeenNick_logo_2023_%28outline%29.svg/1280px-TeenNick_logo_2023_%28outline%29.svg.png",TeenNick
@@ -5020,7 +5022,7 @@ https://s6.hopslan.com/tele5X/index.m3u8
 #EXTINF:-1 tvg-name="Folketinget" group-title="Other" tvg-logo="https://i.imgur.com/RqQDUzX.png",Folketinget
 https://cdnapi.kaltura.com/p/2158211/sp/327418300/playManifest/entryId/1_24gfa7qq/protocol/https/format/applehttp/a.m3u8
 #EXTINF:-1 tvg-name="La Voz de Jesus HD" group-title="Other" tvg-logo="https://gia.tv/streams/pstream/208429.png",La Voz de Jesus HD
-https://live20.bozztv.com/giatvplayout7/giatv-208429/playlist.m3u8
+https://183.giatvcdn.com/giatvplayout7/giatv-208429/playlist.m3u8
 #EXTINF:-1 tvg-name="TV2" group-title="Other" tvg-logo="https://i.imgur.com/VEb631f.png",TV2
 http://185.9.2.18/chid_347/index.m3u8
 #EXTINF:-1 tvg-name="Huda TV" group-title="Other" tvg-logo="https://i.imgur.com/1UUjU26.png",Huda TV
