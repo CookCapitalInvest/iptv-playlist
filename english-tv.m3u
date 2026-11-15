@@ -48,12 +48,8 @@ http://88.212.15.50/live/real_madrid_tv/index.m3u8
 http://103.253.74.210:7070/stream/122/index.m3u8
 #EXTINF:-1 tvg-name="Eurosport 1 UK" group-title="Sports" tvg-logo="https://i.imgur.com/olQJgm7.png",Eurosport 1 UK
 http://85.117.37.43/eurosport1/index.m3u8
-#EXTINF:-1 tvg-name="Eurosport 2" group-title="Sports" tvg-logo="https://i.imgur.com/f56dHgR.png",Eurosport 2
-https://r.eu.cdn-redge.media/livehls/oeu/mt/live/eurosport_2/live.livx/playlist.m3u8
-#EXTINF:-1 tvg-name="Eurosport 2 Bulgaria" group-title="Sports" tvg-logo="https://i.imgur.com/f56dHgR.png",Eurosport 2 Bulgaria
-http://213.91.179.28:8000/play/a04b
-#EXTINF:-1 tvg-name="Eurosport 2 Czechia" group-title="Sports" tvg-logo="https://i.imgur.com/f56dHgR.png",Eurosport 2 Czechia
-http://88.212.7.14/live/test_esp2_hevc_tizen/playlist.m3u8
+#EXTINF:-1 tvg-name="Eurosport 2 UK" group-title="Sports" tvg-logo="https://i.imgur.com/f56dHgR.png",Eurosport 2 UK
+https://r.eu.cdn-redge.media/livehls/oeu/mt/live/eurosport_2_en/live.livx/playlist.m3u8
 #EXTINF:-1 tvg-name="Kozoom TV" group-title="Sports" tvg-logo="https://i.imgur.com/M1Ee79b.png",Kozoom TV
 https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/fdd6f243-f971-4a1a-9510-97ac01d6b37f/manifest.m3u8
 #EXTINF:-1 tvg-name="Trace Sport Stars" group-title="Sports" tvg-logo="https://i.imgur.com/FabFP5A.png",Trace Sport Stars
@@ -330,8 +326,8 @@ http://85.237.89.160:9590/usa-s/ESPN-HD/index.m3u8
 https://bantel-cdn1.iptvperu.tv:1936/btnscrtn/espn-mux/chunks.m3u8
 #EXTINF:-1 tvg-name="ESPN Latin America Colombia" group-title="Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/960px-ESPN_wordmark.svg.png",ESPN Latin America Colombia
 http://190.61.47.54:8000/play/a004/index.m3u8
-#EXTINF:-1 tvg-name="ESPN Latin America Mexico" group-title="Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/960px-ESPN_wordmark.svg.png",ESPN Latin America Mexico
-http://168.228.44.241:9997/play/a06p/index.m3u8
+#EXTINF:-1 tvg-name="ESPN Latin America Colombia" group-title="Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/960px-ESPN_wordmark.svg.png",ESPN Latin America Colombia
+http://181.78.211.244:8005/play/a08q/index.m3u8
 #EXTINF:-1 tvg-name="ESPN8 The Ocho" group-title="Sports" tvg-logo="https://images.fubo.tv/channel-config-ui/station-logos/on-dark/espn_8_the_ocho_bw.png",ESPN8 The Ocho
 https://d3b6q2ou5kp8ke.cloudfront.net/ESPNTheOcho.m3u8
 #EXTINF:-1 tvg-name="ESPNU HD" group-title="Sports" tvg-logo="https://i.imgur.com/HiBrysh.png",ESPNU HD
@@ -931,12 +927,6 @@ https://content.uplynk.com/channel/26bd482ffe364a1282bc3df28bd3c21f.m3u8
 https://jmp2.uk/plu-5e1f7da4bc7d740009831259.m3u8
 #EXTINF:-1 tvg-name="BEK TV News" group-title="News" tvg-logo="https://i.imgur.com/m80uxdz.png",BEK TV News
 https://cdn3.wowza.com/5/ZWQ1K2NYTmpFbGsr/BEK-WOWZA-1/smil:BEKPRIMEeast.smil/playlist.m3u8
-#EXTINF:-1 tvg-name="Black News Channel" group-title="News" tvg-logo="https://i.imgur.com/oX5oR4d.png",Black News Channel
-https://blacknewschannel-vizio.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-name="Black News Channel" group-title="News" tvg-logo="https://i.imgur.com/oX5oR4d.png",Black News Channel
-https://blacknewschannel-xumo-us.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-name="Black News Channel" group-title="News" tvg-logo="https://i.imgur.com/oX5oR4d.png",Black News Channel
-https://redbox-blacknewschannel-xumo.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-name="Blaze Live" group-title="News" tvg-logo="https://i.imgur.com/GwxneSQ.png",Blaze Live
 https://jmp2.uk/plu-5e46fba0c43b0d00096e5ac1.m3u8
 #EXTINF:-1 tvg-name="BX Inform" group-title="News" tvg-logo="https://i.imgur.com/PF71rdZ.png",BX Inform
@@ -1298,6 +1288,8 @@ https://d1jlnqid3sfc6m.cloudfront.net/out/v1/3fc2254c865a457c8d7fbbce227a2aae/in
 https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883104
 #EXTINF:-1 tvg-name="Fox" group-title="Entertainment" tvg-logo="https://i.imgur.com/hSDN9YQ.png",Fox
 http://92.114.85.87:8015/play/a00a/index.m3u8
+#EXTINF:-1 tvg-name="E!" group-title="Entertainment" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/e/ef/E%21_2022_%28Scarlet%29.svg/revision/latest?cb=20260709150437",E!
+http://sultanios.alwaysdata.net/vavo.php?ID=3166915380
 #EXTINF:-1 tvg-name="KC2" group-title="Entertainment" tvg-logo="https://i.imgur.com/PsYPzNc.png",KC2
 http://197.243.19.131:1935/kc2/kc2/chunklist.m3u8
 #EXTINF:-1 tvg-name="KC2" group-title="Entertainment" tvg-logo="https://i.imgur.com/PsYPzNc.png",KC2
@@ -1946,6 +1938,8 @@ https://jmp2.uk/plu-611e71322f5f180007001dde.m3u8
 https://jmp2.uk/plu-5c6eeb85c05dfc257e5a50c4.m3u8
 #EXTINF:-1 tvg-name="Discovery Channel Latin America" group-title="Entertainment" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/2019_Discovery_logo.svg/960px-2019_Discovery_logo.svg.png",Discovery Channel Latin America
 http://45.171.64.30:6060/play/a032/index.m3u8
+#EXTINF:-1 tvg-name="Discovery Channel Middle East & Africa" group-title="Entertainment" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/2019_Discovery_logo.svg/960px-2019_Discovery_logo.svg.png",Discovery Channel Middle East & Africa
+http://85.237.89.159:3342/ar-s/Discovery-HD/index.m3u8
 #EXTINF:-1 tvg-name="Discovery World" group-title="Entertainment" tvg-logo="https://i.imgur.com/yNFmUkE.png",Discovery World
 http://168.196.127.137:6001/play/a097/index.m3u8
 #EXTINF:-1 tvg-name="Discovery World" group-title="Entertainment" tvg-logo="https://i.imgur.com/yNFmUkE.png",Discovery World
@@ -2541,6 +2535,8 @@ https://jmp2.uk/plu-685041d936c9361b1921c26c.m3u8
 https://jmp2.uk/plu-5ad8d3a31b95267e225e4e09.m3u8
 #EXTINF:-1 tvg-name="Pluto TV Westerns" group-title="Movies" tvg-logo="https://images.pluto.tv/channels/5d4bdb635ce813b38639e6a3/colorLogoPNG.png",Pluto TV Westerns
 https://jmp2.uk/plu-5d4bdb635ce813b38639e6a3.m3u8
+#EXTINF:-1 tvg-name="AXN" group-title="Movies" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/AXN_logo_%282015%29.svg/960px-AXN_logo_%282015%29.svg.png",AXN
+http://sultanios.alwaysdata.net/vavo.php?ID=4238619703
 #EXTINF:-1 tvg-name="AXN CEE" group-title="Movies" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/AXN_logo_%282015%29.svg/960px-AXN_logo_%282015%29.svg.png",AXN CEE
 http://88.212.15.50/live/axn_hun/index.m3u8
 #EXTINF:-1 tvg-name="AXN CEE Romania" group-title="Movies" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/AXN_logo_%282015%29.svg/960px-AXN_logo_%282015%29.svg.png",AXN CEE Romania
@@ -2989,6 +2985,8 @@ https://d3pxo1qcgzxtxs.cloudfront.net/10005/99951349/hls/playlist.m3u8?ads.xumo_
 https://e9ee87fcc9f2409f998e7aa106f64672.mediatailor.us-east-1.amazonaws.com/v1/master/04fd913bb278d8775298c26fdca9d9841f37601f/Vizio_ScaresbyShudder/playlist.m3u8
 #EXTINF:-1 tvg-name="Sony Movies" group-title="Movies" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Sony_Movies_Logo.svg/500px-Sony_Movies_Logo.svg.png",Sony Movies
 https://a-cdn.klowdtv.com/live1/smc_720p/playlist.m3u8
+#EXTINF:-1 tvg-name="Star Action" group-title="Movies" tvg-logo="https://i.imgur.com/XD1Tpet.png",Star Action
+http://85.237.89.159:3342/ar-s/STAR-Action-HD/index.m3u8
 #EXTINF:-1 tvg-name="Star Trek: Deep Space Nine" group-title="Movies" tvg-logo="https://images.pluto.tv/channels/65c69bbfd77d450008c7ffee/colorLogoPNG_1758310416057.png",Star Trek: Deep Space Nine
 https://jmp2.uk/plu-65c69bbfd77d450008c7ffee.m3u8
 #EXTINF:-1 tvg-name="Star Trek: The Next Generation" group-title="Movies" tvg-logo="https://images.pluto.tv/channels/695c32e61ca20bb8ca802eb9/colorLogoPNG_1768440087394.png",Star Trek: The Next Generation
@@ -3028,6 +3026,8 @@ https://cdn.whiplash.cc/whiplash-cinema/index.m3u8
 #EXTINF:-1 tvg-name="Wu Tang Collection" group-title="Movies" tvg-logo="https://i.imgur.com/sz55sBl.png",Wu Tang Collection
 https://dbrb49pjoymg4.cloudfront.net/10001/99991745/hls/master.m3u8?ads.xumo_channelId=99991745
 #EXTGRP:Kids
+#EXTINF:-1 tvg-name="Nickelodeon Arabia" group-title="Kids" tvg-logo="https://i.imgur.com/E84jnP8.png",Nickelodeon Arabia
+http://85.237.89.159:3342/ar-s/Nickelodeon/index.m3u8
 #EXTINF:-1 tvg-name="ABC Entertains" group-title="Kids" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/3/35/ABC_Entertains_logo.svg/960px-ABC_Entertains_logo.svg.png",ABC Entertains
 https://c.mjh.nz/abc-me.m3u8
 #EXTINF:-1 tvg-name="ABC Kids" group-title="Kids" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/2/29/ABC_Kids_%282020%29.svg/revision/latest/scale-to-width-down/512",ABC Kids
@@ -3062,6 +3062,8 @@ https://jmp2.uk/plu-64edf6eaa7ec0d000812f58c.m3u8
 https://jmp2.uk/plu-656ef4af4261ca00083c8f37.m3u8
 #EXTINF:-1 tvg-name="Tom And Jerry" group-title="Kids" tvg-logo="https://gia.tv/streams/pptv/208314.jpg?1750373428",Tom And Jerry
 https://183.giatvcdn.com/giatvplayout7/giatv-208314/playlist.m3u8
+#EXTINF:-1 tvg-name="Boomerang HD" group-title="Kids" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Boomerang_2014_logo.svg/960px-Boomerang_2014_logo.svg.png",Boomerang HD
+http://41.205.93.154/BOOMERANG/index.m3u8
 #EXTINF:-1 tvg-name="JimJam" group-title="Kids" tvg-logo="https://i.imgur.com/ODhkYyx.png",JimJam
 http://88.212.7.14/live/jim_jam_hun/index.m3u8
 #EXTINF:-1 tvg-name="TeenNick" group-title="Kids" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/TeenNick_logo_2023_%28outline%29.svg/1280px-TeenNick_logo_2023_%28outline%29.svg.png",TeenNick
@@ -3124,6 +3126,8 @@ http://92.114.85.87:8010/play/a009/index.m3u8
 https://atlantida1.aquax1.cfd/disjr/usergendxvoq4rnd.m3u8
 #EXTINF:-1 tvg-name="Nickelodeon" group-title="Kids" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/6/60/Nickelodeon_Splat_2023.png/revision/latest?cb=20241009234318",Nickelodeon
 http://178.76.68.60:7442/64/mpegts
+#EXTINF:-1 tvg-name="Nickelodeon" group-title="Kids" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/6/60/Nickelodeon_Splat_2023.png/revision/latest?cb=20241009234318",Nickelodeon
+http://sultanios.alwaysdata.net/vavo.php?ID=181751695
 #EXTINF:-1 tvg-name="Nicktoons" group-title="Kids" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/7/71/NickToons_US_2023_Splat_Variant.png/revision/latest?cb=20251214221939",Nicktoons
 http://178.76.68.60:7442/80/mpegts
 #EXTINF:-1 tvg-name="Nickelodeon" group-title="Kids" tvg-logo="https://i.imgur.com/w8iE8dV.png",Nickelodeon
@@ -3346,6 +3350,8 @@ https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/04
 https://brat-samsung-us.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-name="Camp Spoopy" group-title="Kids" tvg-logo="https://img2.static-ottera.com/prod/tg/linear_channel/logo/640x360/camp-spoopy-2021_1920-x-1080_option-5.jpg",Camp Spoopy
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=269
+#EXTINF:-1 tvg-name="Cartoon Network" group-title="Kids" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/960px-Cartoon_Network_2010_logo.svg.png",Cartoon Network
+https://tvnow.hostless.app/cartoon-network.m3u8
 #EXTINF:-1 tvg-name="Cartoon Network Latin America" group-title="Kids" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/960px-Cartoon_Network_2010_logo.svg.png",Cartoon Network Latin America
 https://bantel-cdn1.iptvperu.tv:1936/btnscrtn/cartoonnetwork.stream/chunks.m3u8
 #EXTINF:-1 tvg-name="Cartoon Network Latin America North Atlantic" group-title="Kids" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/960px-Cartoon_Network_2010_logo.svg.png",Cartoon Network Latin America North Atlantic
@@ -3370,6 +3376,8 @@ http://38.224.231.176:8000/play/a01j/index.m3u8
 http://38.134.250.110:8000/play/a003/index.m3u8
 #EXTINF:-1 tvg-name="Disney Channel" group-title="Kids" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/ff/2024_Disney_Channel_text_logo.svg",Disney Channel
 http://4.30.180.36:8420/disneychannel/index.m3u8?token=test
+#EXTINF:-1 tvg-name="Disney Channel" group-title="Kids" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/ff/2024_Disney_Channel_text_logo.svg",Disney Channel
+https://tvnow.hostless.app/disney-channel.m3u8
 #EXTINF:-1 tvg-name="Disney Junior" group-title="Kids" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e3/2024_Disney_Jr._Logo.svg",Disney Junior
 http://tvsen5.aynascope.net/disney/index.m3u8
 #EXTINF:-1 tvg-name="Disney Junior" group-title="Kids" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e3/2024_Disney_Jr._Logo.svg",Disney Junior
@@ -3378,6 +3386,8 @@ http://tvsen7.aynascope.net/disney/index.m3u8
 http://tvsen7.aynascope.net/disneyjr/index.m3u8
 #EXTINF:-1 tvg-name="Disney XD" group-title="Kids" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/a8/2015_Disney_XD_logo.svg",Disney XD
 http://89.187.179.148:826/1368/gXwiagaXda/1672
+#EXTINF:-1 tvg-name="Disney XD" group-title="Kids" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/a8/2015_Disney_XD_logo.svg",Disney XD
+https://tvnow.hostless.app/disney-xd.m3u8
 #EXTINF:-1 tvg-name="Dora TV" group-title="Kids" tvg-logo="https://i.imgur.com/zJuSbmU.png",Dora TV
 https://jmp2.uk/plu-62e951258a26d40007b3034c.m3u8
 #EXTINF:-1 tvg-name="Doraemon" group-title="Kids" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/01/Doraemon_Merch_EN_Logo.svg",Doraemon
@@ -3436,6 +3446,8 @@ https://reflect-npa.cablecast.tv/live-9/live/live.m3u8
 http://212.5.144.156:8080/nickjr/index.m3u8
 #EXTINF:-1 tvg-name="Nick Jr." group-title="Kids" tvg-logo="https://i.imgur.com/KT4tdQs.png",Nick Jr.
 http://tvsen7.aynascope.net/nickjr/index.m3u8
+#EXTINF:-1 tvg-name="Nick Jr." group-title="Kids" tvg-logo="https://i.imgur.com/KT4tdQs.png",Nick Jr.
+https://tvnow.hostless.app/nick-jr.m3u8
 #EXTINF:-1 tvg-name="Nick Jr. Club" group-title="Kids" tvg-logo="https://i.imgur.com/GCenuyl.png",Nick Jr. Club
 https://jmp2.uk/plu-6824ce95f09106f4b18f4114.m3u8
 #EXTINF:-1 tvg-name="Nick Jr. Club" group-title="Kids" tvg-logo="https://i.imgur.com/GCenuyl.png",Nick Jr. Club
@@ -3446,6 +3458,8 @@ https://streaming.onnethn.com/NICK_JR/playlist.m3u8
 https://jmp2.uk/plu-62bdb75c3afd1200079146a6.m3u8
 #EXTINF:-1 tvg-name="Nick Jr. Pluto TV" group-title="Kids" tvg-logo="https://i.imgur.com/8DAe8wr.png",Nick Jr. Pluto TV
 https://jmp2.uk/plu-5ca6748a37b88b269472dad9.m3u8
+#EXTINF:-1 tvg-name="Nickelodeon" group-title="Kids" tvg-logo="https://i.imgur.com/E84jnP8.png",Nickelodeon
+https://tvnow.hostless.app/nickelodeon.m3u8
 #EXTINF:-1 tvg-name="Nickelodeon Clásico" group-title="Kids" tvg-logo="https://images.pluto.tv/channels/5ddd7c348520b40009c347e2/colorLogoPNG_1750157294622.png",Nickelodeon Clásico
 https://jmp2.uk/plu-6824cda00101510f9eeaa011.m3u8
 #EXTINF:-1 tvg-name="Nickelodeon Clássico" group-title="Kids" tvg-logo="https://images.pluto.tv/channels/5f12151794c1800007a8ae63/colorLogoPNG_1750157164414.png",Nickelodeon Clássico
@@ -4486,14 +4500,12 @@ https://jmp2.uk/plu-66ba495ffe11e5000881f049.m3u8
 https://jmp2.uk/plu-5f15e32b297f96000768f928.m3u8
 #EXTINF:-1 tvg-name="Comedy Central" group-title="Comedy" tvg-logo="https://images.pluto.tv/channels/64f8a408bd341e000818fcda/colorLogoPNG.png",Comedy Central
 https://jmp2.uk/plu-64f8a408bd341e000818fcda.m3u8
+#EXTINF:-1 tvg-name="Comedy Central" group-title="Comedy" tvg-logo="https://images.pluto.tv/channels/64f8a408bd341e000818fcda/colorLogoPNG.png",Comedy Central
+https://tvnow.hostless.app/comedy-central.m3u8
 #EXTINF:-1 tvg-name="Comedy Central Animation" group-title="Comedy" tvg-logo="https://i.imgur.com/uENch0P.png",Comedy Central Animation
 https://jmp2.uk/plu-64f8a949f5b5e4000862467c.m3u8
 #EXTINF:-1 tvg-name="Comedy Central en español" group-title="Comedy" tvg-logo="https://i.imgur.com/6xTD3G8.png",Comedy Central en español
 https://jmp2.uk/plu-5cf96dad1652631e36d43320.m3u8
-#EXTINF:-1 tvg-name="Comedy Central Latin America" group-title="Comedy" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Comedy_Central_2018.svg/960px-Comedy_Central_2018.svg.png",Comedy Central Latin America
-https://bantel-cdn1.iptvperu.tv:1936/btnscrtn/Comedy_Central/playlist.m3u8
-#EXTINF:-1 tvg-name="Comedy Central Latin America" group-title="Comedy" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Comedy_Central_2018.svg/960px-Comedy_Central_2018.svg.png",Comedy Central Latin America
-https://barinaslive1.boldmss.com/COMEDY/COMEDY.isml/COMEDY.m3u8
 #EXTINF:-1 tvg-name="Comedy Central Pluto TV" group-title="Comedy" tvg-logo="https://i.imgur.com/9y6TtjF.png",Comedy Central Pluto TV
 https://jmp2.uk/plu-5ca671f215a62078d2ec0abf.m3u8
 #EXTINF:-1 tvg-name="Comedy Dynamics" group-title="Comedy" tvg-logo="https://i.imgur.com/1lEvUOa.png",Comedy Dynamics
@@ -4799,6 +4811,8 @@ https://cdn1.logichost.in/ajmantv/live/playlist.m3u8
 https://dzkyvlfyge.erbvr.com/PeaceTvEnglish/index.m3u8
 #EXTINF:-1 tvg-name="Pulse95 Radio" group-title="Other" tvg-logo="https://maraya.faulio.com/storage/mediagallery/60/26/fullhd_d5c3c81b0562a76bc63f073a5e0947f309b0215b.png",Pulse95 Radio
 https://svs.itworkscdn.net/pulse95live/pulse96/playlist.m3u8
+#EXTINF:-1 tvg-name="Star World Middle East" group-title="Other" tvg-logo="https://i.imgur.com/TD8d1eQ.png",Star World Middle East
+http://85.237.89.159:3342/ar-s/STAR-World-HD/index.m3u8
 #EXTINF:-1 tvg-name="Pointe TV" group-title="Other" tvg-logo="https://i.ibb.co/7tyD2kr/IMG-20240421-154850.jpg",Pointe TV
 https://tv.pointville.ag/hls/mystream.m3u8
 #EXTINF:-1 tvg-name="Kpop Mix" group-title="Other" tvg-logo="https://tvomix.com/Logos/Kpopmix.png",Kpop Mix
@@ -5033,6 +5047,8 @@ https://jmc-live.ercdn.net/eritreatv/eritreatv.m3u8
 https://ingest2-video.streaming-pro.com/tele7_ABR/stream/playlist.m3u8
 #EXTINF:-1 tvg-name="TVE Internacional Europe" group-title="Other" tvg-logo="https://i.ibb.co/RpKLCMvp/tve.png",TVE Internacional Europe
 http://91.228.35.249:8001/1:0:1:DAD:1F40:13E:820000:0:0:0
+#EXTINF:-1 tvg-name="TVE Internacional Europe" group-title="Other" tvg-logo="https://i.ibb.co/RpKLCMvp/tve.png",TVE Internacional Europe
+https://r.eu.cdn-redge.media/livehls/oeu/mt/live/tve/live.livx/playlist.m3u8
 #EXTINF:-1 tvg-name="FashionTV Europe" group-title="Other" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Fashion_TV_logo.svg/960px-Fashion_TV_logo.svg.png",FashionTV Europe
 https://68f1accef2154d2195cae87dec183843.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-eu_FashionTV/playlist.m3u8
 #EXTINF:-1 tvg-name="FashionTV Secrets" group-title="Other" tvg-logo="https://i.ibb.co/fVGJyCC8/w512.png",FashionTV Secrets
@@ -5042,7 +5058,7 @@ https://fl718492-exthls-p1.flovp.com/fl718492/live/live.m3u8
 #EXTINF:-1 tvg-name="MyZen TV" group-title="Other" tvg-logo="https://i.imgur.com/fIi8o0C.png",MyZen TV
 https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01255-secomcofites-my-myzen-en-plex/playlist.m3u8
 #EXTINF:-1 tvg-name="TFX" group-title="Other" tvg-logo="https://i.imgur.com/d91GcVf.png",TFX
-http://149.62.177.107:9999/TFX/index.m3u8
+https://r.eu.cdn-redge.media/livehls/oeu/mt/live/tfx/live.livx/playlist.m3u8
 #EXTINF:-1 tvg-name="TV5Monde Pacific" group-title="Other" tvg-logo="https://i.imgur.com/mfZOYZI.png",TV5Monde Pacific
 http://103.190.232.129/stream/tvb/pacifique/master.m3u8?p=967e33767f592e1aaf3d4019f38f380bf784e113b193d89c412d047059d6300d&u=Oleg
 #EXTINF:-1 tvg-name="TV5Monde Pacific" group-title="Other" tvg-logo="https://i.imgur.com/mfZOYZI.png",TV5Monde Pacific
@@ -6967,8 +6983,12 @@ https://wggstv16.ddns.net:9953/hls/walk1.m3u8
 https://clouditize.piksel.tech/hls/live/2043070/ClouditizeStream1/playlist.m3u8
 #EXTINF:-1 tvg-name="theDove TV" group-title="Other" tvg-logo="https://i.imgur.com/ULtuRsj.png",theDove TV
 https://thedovetv.bozztv.com/thedovetv/thedovetv/index.m3u8
-#EXTINF:-1 tvg-name="TheGrio" group-title="Other" tvg-logo="https://i.imgur.com/g43K0EE.png",TheGrio
-https://a-cdn.klowdtv.com/live2/thegrio_720p/playlist.m3u8
+#EXTINF:-1 tvg-name="TheGrio TV FAST" group-title="Other" tvg-logo="https://i.imgur.com/g43K0EE.png",TheGrio TV FAST
+https://blacknewschannel-vizio.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-name="TheGrio TV FAST" group-title="Other" tvg-logo="https://i.imgur.com/g43K0EE.png",TheGrio TV FAST
+https://blacknewschannel-xumo-us.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-name="TheGrio TV FAST" group-title="Other" tvg-logo="https://i.imgur.com/g43K0EE.png",TheGrio TV FAST
+https://redbox-blacknewschannel-xumo.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-name="Thornton Government Access Channel 17 (Thornton CO)" group-title="Other" tvg-logo="https://i.imgur.com/C013OWn.png",Thornton Government Access Channel 17 (Thornton CO)
 https://reflect-thornton.cablecast.tv/live-4/live/live.m3u8
 #EXTINF:-1 tvg-name="Timeless TV" group-title="Other" tvg-logo="https://i.imgur.com/bjcpeVH.png",Timeless TV
