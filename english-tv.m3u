@@ -362,6 +362,8 @@ https://a-cdn.klowdtv.com/live2/ftf_720p/playlist.m3u8
 https://aegis-cloudfront-1.tubi.video/c2ac89da-5c69-439e-b85d-d87de0548b54/5.m3u8
 #EXTINF:-1 tvg-name="fubo Sports Network" group-title="Sports" tvg-logo="https://i.imgur.com/qFNRJLb.png",fubo Sports Network
 https://dnf08l6u6uxnz.cloudfront.net/master.m3u8
+#EXTINF:-1 tvg-name="Fubo Sports Network HD" group-title="Sports" tvg-logo="https://i.imgur.com/qFNRJLb.png",Fubo Sports Network HD
+http://107.167.16.138/fubosportsnetwork/index.m3u8?token=test
 #EXTINF:-1 tvg-name="GLORY Kickboxing" group-title="Sports" tvg-logo="https://i.imgur.com/tS7Ub7i.png",GLORY Kickboxing
 https://6f972d29.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0dsb3J5S2lja2JveGluZ19ITFM/playlist.m3u8
 #EXTINF:-1 tvg-name="Golazo Network" group-title="Sports" tvg-logo="https://images.pluto.tv/channels/63a0e33a45264d000850ed7e/colorLogoPNG_1731835813404.png",Golazo Network
@@ -1294,6 +1296,8 @@ https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae0
 http://92.114.85.87:8015/play/a00a/index.m3u8
 #EXTINF:-1 tvg-name="E!" group-title="Entertainment" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/e/ef/E%21_2022_%28Scarlet%29.svg/revision/latest?cb=20260709150437",E!
 http://sultanios.alwaysdata.net/vavo.php?ID=3166915380
+#EXTINF:-1 tvg-name="Sci Fi" group-title="Entertainment" tvg-logo="https://i.imgur.com/FPumwfg.png",Sci Fi
+https://webtvstream.bhtelecom.ba/sci-fi.m3u8
 #EXTINF:-1 tvg-name="KC2" group-title="Entertainment" tvg-logo="https://i.imgur.com/PsYPzNc.png",KC2
 http://197.243.19.131:1935/kc2/kc2/chunklist.m3u8
 #EXTINF:-1 tvg-name="KC2" group-title="Entertainment" tvg-logo="https://i.imgur.com/PsYPzNc.png",KC2
@@ -2617,6 +2621,10 @@ http://88.212.7.14/live/filmbox_hungary/index.m3u8
 http://103.213.31.109:90/BollywoodHD/playlist.m3u8
 #EXTINF:-1 tvg-name="Bollywood HD Russia" group-title="Movies" tvg-logo="https://i.imgur.com/scDKOLS.png",Bollywood HD Russia
 https://xykt-fix.github.io/cinerama_edge01/hls/BOLLYWOOD_RU/Movie009.m3u8
+#EXTINF:-1 tvg-name="SkyShowtime 1" group-title="Movies" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/a/a0/SkyShowtime_1.svg/revision/latest?cb=20220920074626",SkyShowtime 1
+https://rundle.tv/proxy5.php?src=https%3A%2F%2Fthor1.syndula001.cfd%2Fschi1%2Fusergendxn430rnd-got.htm
+#EXTINF:-1 tvg-name="SkyShowtime 2" group-title="Movies" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/09/SkyShowtime_2.svg/revision/latest?cb=20220920074646",SkyShowtime 2
+https://rundle.tv/proxy5.php?src=https%3A%2F%2Fthor1.syndula001.cfd%2Fschi2%2Fusergendxj85trnd-got.htm
 #EXTINF:-1 tvg-name="Movies Action" group-title="Movies" tvg-logo="https://i.imgur.com/NIVhISa.png",Movies Action
 https://shd-amg-fast.edgenextcdn.net/tx011/playlist.m3u8
 #EXTINF:-1 tvg-name="Movies Thriller" group-title="Movies" tvg-logo="https://i.imgur.com/JWihdcl.png",Movies Thriller
@@ -3068,8 +3076,6 @@ https://183.giatvcdn.com/giatvplayout7/giatv-208314/playlist.m3u8
 http://41.205.93.154/BOOMERANG/index.m3u8
 #EXTINF:-1 tvg-name="JimJam" group-title="Kids" tvg-logo="https://i.imgur.com/ODhkYyx.png",JimJam
 http://88.212.7.14/live/jim_jam_hun/index.m3u8
-#EXTINF:-1 tvg-name="TeenNick" group-title="Kids" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/TeenNick_logo_2023_%28outline%29.svg/1280px-TeenNick_logo_2023_%28outline%29.svg.png",TeenNick
-http://89.33.29.115:8080/TeenNick/index.m3u8
 #EXTINF:-1 tvg-name="Cartoon Network HD+" group-title="Kids" tvg-logo="https://i.imgur.com/pH6ao2T.png",Cartoon Network HD+
 http://103.135.253.32:8080/CN-NETWORK/index.m3u8
 #EXTINF:-1 tvg-name="Epic Kids Digital" group-title="Kids" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0032BVSR.png?lock=720x540",Epic Kids Digital
@@ -3132,6 +3138,8 @@ http://185.227.34.179:8080/jimjam/index.m3u8
 http://92.114.85.87:8010/play/a009/index.m3u8
 #EXTINF:-1 tvg-name="Disney Junior" group-title="Kids" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e3/2024_Disney_Jr._Logo.svg",Disney Junior
 https://atlantida1.aquax1.cfd/disjr/usergendxvoq4rnd.m3u8
+#EXTINF:-1 tvg-name="JimJam" group-title="Kids" tvg-logo="https://i.imgur.com/ODhkYyx.png",JimJam
+https://rundle.tv/proxy5.php?src=https%3A%2F%2Fsaruman1.tharen001.cfd%2Fjimy%2Fusergenq3n0lz7kr-got.htm
 #EXTINF:-1 tvg-name="Nickelodeon" group-title="Kids" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/6/60/Nickelodeon_Splat_2023.png/revision/latest?cb=20241009234318",Nickelodeon
 http://178.76.68.60:7442/64/mpegts
 #EXTINF:-1 tvg-name="Nickelodeon" group-title="Kids" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/6/60/Nickelodeon_Splat_2023.png/revision/latest?cb=20241009234318",Nickelodeon
@@ -4881,6 +4889,8 @@ https://d1211whpimeups.cloudfront.net/smil:rtbgo/playlist.m3u8
 https://d1211whpimeups.cloudfront.net/smil:rtb1/playlist.m3u8
 #EXTINF:-1 tvg-name="Plus TLT" group-title="Other",Plus TLT
 http://15.204.246.24:8080/PlusTLTHD/index.m3u8
+#EXTINF:-1 tvg-name="Plus TLT" group-title="Other",Plus TLT
+http://190.181.61.93:8000/play/a007/index.m3u8
 #EXTINF:-1 tvg-name="Red CCTV" group-title="Other" tvg-logo="https://i.imgur.com/YC5FRmq.png",Red CCTV
 https://solo.disfrutaenlared.com:1936/redcctv/redcctv/playlist.m3u8
 #EXTINF:-1 tvg-name="Red CCTV" group-title="Other" tvg-logo="https://i.imgur.com/YC5FRmq.png",Red CCTV
@@ -5621,8 +5631,6 @@ https://vidh.youniverse.name:5050/MSTV/english/chunklist_w1133422319.m3u8
 http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-ro-protv/live_fullhd?offsetSeconds=0
 #EXTINF:-1 tvg-name="PRO TV International" group-title="Other" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/4/4f/PRO_TV_Interna%C8%9Bional_%282017%29.svg/revision/latest/scale-to-width-down/1000?cb=20220821114700",PRO TV International
 http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-ro-protv-international/live_fullhd?offsetSeconds=0
-#EXTINF:-1 tvg-name="Sci Fi" group-title="Other" tvg-logo="https://i.imgur.com/FPumwfg.png",Sci Fi
-https://webtvstream.bhtelecom.ba/sci-fi.m3u8
 #EXTINF:-1 tvg-name="English Class HD" group-title="Other" tvg-logo="https://i.imgur.com/gst7wW7.png",English Class HD
 http://31.148.48.15/English_club_TV_HD/index.m3u8
 #EXTINF:-1 tvg-name="FASHION & LIFESTYLE" group-title="Other" tvg-logo="https://i.imgur.com/ETmpllL.png",FASHION & LIFESTYLE
