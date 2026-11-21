@@ -74,6 +74,20 @@ https://fta.ektv.in/live/280/master.m3u8
 http://116.90.120.149:8000/play/a118/index.m3u8
 #EXTINF:-1 tvg-name="Eurosport HD" group-title="Sports" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG002E9LQS.png?lock=720x540",Eurosport HD
 https://livetv.shamon-cable.net:8443/Eurosport-HD/index.m3u8
+#EXTINF:-1 tvg-name="Sony Sports Ten 1" group-title="Sports" tvg-logo="https://dtil.tmsimg.com/assets/s157591_ld_h15_aa.png?lock=720x540",Sony Sports Ten 1
+http://116.90.120.149:8000/play/a126/index.m3u8
+#EXTINF:-1 tvg-name="Sony Sports Ten 1 HD" group-title="Sports" tvg-logo="https://dtil.tmsimg.com/assets/s157591_ld_h15_aa.png?lock=720x540",Sony Sports Ten 1 HD
+http://116.90.120.149:8000/play/a11t/index.m3u8
+#EXTINF:-1 tvg-name="Sony Sports Ten 2 HD" group-title="Sports" tvg-logo="https://dtil.tmsimg.com/assets/s157592_ld_h15_aa.png?lock=720x540",Sony Sports Ten 2 HD
+http://116.90.120.149:8000/play/a137/index.m3u8
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Sports" tvg-logo="https://dtil.tmsimg.com/assets/s157593_ld_h15_aa.png?lock=720x540",Sony Sports Ten 5
+http://116.90.120.149:8000/play/a117/index.m3u8
+#EXTINF:-1 tvg-name="Star Sports 1 HD" group-title="Sports" tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/7482/1782284567482-h.jpg",Star Sports 1 HD
+http://116.90.120.149:8000/play/a11x/index.m3u8
+#EXTINF:-1 tvg-name="Star Sports 2 HD" group-title="Sports" tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/7957/1783000567957-h.jpg",Star Sports 2 HD
+http://116.90.120.149:8000/play/a120/index.m3u8
+#EXTINF:-1 tvg-name="Unite8 Sports 2 HD" group-title="Sports" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG00358PGT.png?lock=720x540",Unite8 Sports 2 HD
+http://116.90.120.149:8000/play/a129/index.m3u8
 #EXTINF:-1 tvg-name="Nautical Channel" group-title="Sports" tvg-logo="https://i.imgur.com/2ByDyzL.png",Nautical Channel
 https://cdn78-at.azotosolutions.com/cdnedge39/Canale2/master.m3u8
 #EXTINF:-1 tvg-name="Nautical Channel" group-title="Sports" tvg-logo="https://i.imgur.com/2ByDyzL.png",Nautical Channel
@@ -1271,7 +1285,13 @@ https://fta.ektv.in/live/713/master.m3u8
 #EXTINF:-1 tvg-name="Hi Dost!" group-title="Entertainment" tvg-logo="https://i.imgur.com/bnST6y5.png",Hi Dost!
 https://mumt03.tangotv.in/Dsly5z3HHIDOST/index.m3u8
 #EXTINF:-1 tvg-name="Hi Dost!" group-title="Entertainment" tvg-logo="https://i.imgur.com/bnST6y5.png",Hi Dost!
-https://cdn.pishow.tv/ott/live/224/master.m3u8
+https://samitaorigin.tangotv.in/HIDOST/SAMITAORIGIN/index.m3u8
+#EXTINF:-1 tvg-name="MTV" group-title="Entertainment" tvg-logo="https://img10.hotstar.com/image/upload/sources/r1/cms/prod/8633/1786020488633-h.jpg",MTV
+https://yupp-music.keralive.workers.dev/out/v1/a797c00cba954265ba781f92a57e2cf5/index.m3u8
+#EXTINF:-1 tvg-name="MTV HD" group-title="Entertainment" tvg-logo="https://img10.hotstar.com/image/upload/sources/r1/cms/prod/8633/1786020488633-h.jpg",MTV HD
+http://116.90.120.149:8000/play/a136/index.m3u8
+#EXTINF:-1 tvg-name="MTV HD" group-title="Entertainment" tvg-logo="https://img10.hotstar.com/image/upload/sources/r1/cms/prod/8633/1786020488633-h.jpg",MTV HD
+https://maamusic.keralive.workers.dev/out/v1/a797c00cba954265ba781f92a57e2cf5/index.m3u8
 #EXTINF:-1 tvg-name="Sony Entertainment Television HD" group-title="Entertainment" tvg-logo="https://dtil.tmsimg.com/assets/s159096_ld_h15_aa.png?lock=720x540",Sony Entertainment Television HD
 http://38.96.178.205/SONYHD/index.m3u8
 #EXTINF:-1 tvg-name="Sony Entertainment Television HD" group-title="Entertainment" tvg-logo="https://dtil.tmsimg.com/assets/s159096_ld_h15_aa.png?lock=720x540",Sony Entertainment Television HD
@@ -1308,8 +1328,6 @@ https://d1jlnqid3sfc6m.cloudfront.net/out/v1/3fc2254c865a457c8d7fbbce227a2aae/in
 https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883104
 #EXTINF:-1 tvg-name="Fox" group-title="Entertainment" tvg-logo="https://i.imgur.com/hSDN9YQ.png",Fox
 http://92.114.85.87:8015/play/a00a/index.m3u8
-#EXTINF:-1 tvg-name="E!" group-title="Entertainment" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/e/ef/E%21_2022_%28Scarlet%29.svg/revision/latest?cb=20260709150437",E!
-http://sultanios.alwaysdata.net/vavo.php?ID=3166915380
 #EXTINF:-1 tvg-name="Sci Fi" group-title="Entertainment" tvg-logo="https://i.imgur.com/FPumwfg.png",Sci Fi
 https://webtvstream.bhtelecom.ba/sci-fi.m3u8
 #EXTINF:-1 tvg-name="KC2" group-title="Entertainment" tvg-logo="https://i.imgur.com/PsYPzNc.png",KC2
@@ -2456,7 +2474,7 @@ https://jmp2.uk/plu-685041d936c9361b1921c26c.m3u8
 #EXTINF:-1 tvg-name="Pluto TV Movies" group-title="Movies" tvg-logo="https://i.imgur.com/XzAbXAn.png",Pluto TV Movies
 https://jmp2.uk/plu-5ad8d3a31b95267e225e4e09.m3u8
 #EXTINF:-1 tvg-name="AXN" group-title="Movies" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/AXN_logo_%282015%29.svg/960px-AXN_logo_%282015%29.svg.png",AXN
-http://sultanios.alwaysdata.net/vavo.php?ID=4238619703
+https://vuvuu-geil-m3u8.yaskar661.workers.dev/?url=https%3A%2F%2Fgeil.to%2Flive%2Fplay%2F4238619703
 #EXTINF:-1 tvg-name="AXN CEE" group-title="Movies" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/AXN_logo_%282015%29.svg/960px-AXN_logo_%282015%29.svg.png",AXN CEE
 http://88.212.15.50/live/axn_hun/index.m3u8
 #EXTINF:-1 tvg-name="AXN CEE Romania" group-title="Movies" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/AXN_logo_%282015%29.svg/960px-AXN_logo_%282015%29.svg.png",AXN CEE Romania
@@ -2505,10 +2523,12 @@ http://116.90.120.149:8000/play/a11f/index.m3u8
 http://27.124.71.27/Movies_Now/index.m3u8
 #EXTINF:-1 tvg-name="Sony Pix HD" group-title="Movies" tvg-logo="https://dtil.tmsimg.com/assets/s143803_ld_h15_aa.png?lock=720x540",Sony Pix HD
 http://116.90.120.149:8000/play/a138/index.m3u8
+#EXTINF:-1 tvg-name="Star Movies HD" group-title="Movies" tvg-logo="https://dtil.tmsimg.com/assets/s143829_ld_h15_aa.png?lock=720x540",Star Movies HD
+http://116.90.120.149:8000/play/a13a/index.m3u8
+#EXTINF:-1 tvg-name="Star Movies Select HD" group-title="Movies" tvg-logo="https://dtil.tmsimg.com/assets/s143830_ld_h15_aa.png?lock=720x540",Star Movies Select HD
+http://116.90.120.149:8000/play/a139/index.m3u8
 #EXTINF:-1 tvg-name="iFilm English" group-title="Movies" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b9/IFILM.png",iFilm English
 https://live.presstv.co.uk/hls/ifilmen.m3u8
-#EXTINF:-1 tvg-name="Film1 Action" group-title="Movies" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Film1_Action_SVG.svg/960px-Film1_Action_SVG.svg.png",Film1 Action
-http://86.87.15.10:8008/play/a01l/index.m3u8
 #EXTINF:-1 tvg-name="Filmazia" group-title="Movies" tvg-logo="https://i.imgur.com/hpTCANa.png",Filmazia
 http://103.250.28.74:8000/play/a02k/index.m3u8
 #EXTINF:-1 tvg-name="FILMBOX+ Action" group-title="Movies" tvg-logo="https://spiintl.com/data/files/kcfinderUploadDir/images/filmboxplus/filmbox%2Baction.png",FILMBOX+ Action
@@ -2970,6 +2990,8 @@ https://jmp2.uk/plu-5c5c2b9d8002db3c3e0b1c6d.m3u8
 https://183.giatvcdn.com/giatvplayout7/giatv-208314/playlist.m3u8
 #EXTINF:-1 tvg-name="Boomerang HD" group-title="Kids" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Boomerang_2014_logo.svg/960px-Boomerang_2014_logo.svg.png",Boomerang HD
 http://41.205.93.154/BOOMERANG/index.m3u8
+#EXTINF:-1 tvg-name="Disney Channel" group-title="Kids" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3d/2022_Disney_Channel_logo.svg",Disney Channel
+https://vuvuu-geil-m3u8.yaskar661.workers.dev/?url=https%3A%2F%2Fvavoo.to%2Fvavoo-iptv%2Fplay%2F11741266772bc970bcdea5
 #EXTINF:-1 tvg-name="JimJam" group-title="Kids" tvg-logo="https://i.imgur.com/ODhkYyx.png",JimJam
 http://88.212.7.14/live/jim_jam_hun/index.m3u8
 #EXTINF:-1 tvg-name="Cartoon Network HD+" group-title="Kids" tvg-logo="https://i.imgur.com/pH6ao2T.png",Cartoon Network HD+
@@ -3048,8 +3070,6 @@ https://atlantida1.aquax1.cfd/disjr/usergendxvoq4rnd.m3u8
 https://rundle.tv/proxy5.php?src=https%3A%2F%2Fsaruman1.tharen001.cfd%2Fjimy%2Fusergenq3n0lz7kr-got.htm
 #EXTINF:-1 tvg-name="Nickelodeon" group-title="Kids" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/6/60/Nickelodeon_Splat_2023.png/revision/latest?cb=20241009234318",Nickelodeon
 http://178.76.68.60:7442/64/mpegts
-#EXTINF:-1 tvg-name="Nickelodeon" group-title="Kids" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/6/60/Nickelodeon_Splat_2023.png/revision/latest?cb=20241009234318",Nickelodeon
-http://sultanios.alwaysdata.net/vavo.php?ID=181751695
 #EXTINF:-1 tvg-name="Nicktoons" group-title="Kids" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/7/71/NickToons_US_2023_Splat_Variant.png/revision/latest?cb=20251214221939",Nicktoons
 http://178.76.68.60:7442/80/mpegts
 #EXTINF:-1 tvg-name="Nickelodeon" group-title="Kids" tvg-logo="https://i.imgur.com/w8iE8dV.png",Nickelodeon
@@ -3150,6 +3170,10 @@ http://213.91.179.28:8000/play/a08g
 http://88.212.7.14/live/test_cartoon_network_tizen/playlist.m3u8
 #EXTINF:-1 tvg-name="Cartoon Network CEE Germany" group-title="Kids" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/960px-Cartoon_Network_2010_logo.svg.png",Cartoon Network CEE Germany
 http://94.130.48.67:8042/stream/109/index.m3u8
+#EXTINF:-1 tvg-name="Cartoon Network Western Europe Portugal" group-title="Kids" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/960px-Cartoon_Network_2010_logo.svg.png",Cartoon Network Western Europe Portugal
+https://vuvuu-geil-m3u8.yaskar661.workers.dev/?url=https%3A%2F%2Fvavoo.to%2Fvavoo-iptv%2Fplay%2F327818589842dbaee1327c
+#EXTINF:-1 tvg-name="Cartoon Network Western Europe Portugal" group-title="Kids" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/960px-Cartoon_Network_2010_logo.svg.png",Cartoon Network Western Europe Portugal
+https://vuvuu-geil-m3u8.yaskar661.workers.dev/?url=https%3A%2F%2Fvavoo.to%2Fvavoo-iptv%2Fplay%2F2672740913728a31b548ec
 #EXTINF:-1 tvg-name="Cartoonito CEE" group-title="Kids" tvg-logo="https://i.imgur.com/9MrzLb1.png",Cartoonito CEE
 http://193.33.39.108:9019/play/a00t
 #EXTINF:-1 tvg-name="Cartoonito CEE Poland" group-title="Kids" tvg-logo="https://i.imgur.com/9MrzLb1.png",Cartoonito CEE Poland
@@ -5087,6 +5111,8 @@ https://d2lk5u59tns74c.cloudfront.net/out/v1/e4182054dce340da9e0ff38b6b3658a4/in
 https://playhls.media.nic.in/hls/live/rstv/rstv.m3u8
 #EXTINF:-1 tvg-name="Sansad TV 2 HD" group-title="Other" tvg-logo="https://dtil.tmsimg.com/assets/s143761_ld_h15_aa.png?lock=720x540",Sansad TV 2 HD
 https://fta.ektv.in/live/298/master.m3u8
+#EXTINF:-1 tvg-name="TLC HD" group-title="Other" tvg-logo="https://dtil.tmsimg.com/assets/s123500_ld_h15_aa.png?lock=720x540",TLC HD
+http://116.90.120.149:8000/play/a11g/index.m3u8
 #EXTINF:-1 tvg-name="TV BRICS English" group-title="Other" tvg-logo="https://i.imgur.com/8rKNuS6.png",TV BRICS English
 https://engbrics.mediacdn.ru/cdn/brics/english/playlist.m3u8
 #EXTINF:-1 tvg-name="Vyas NIC" group-title="Other" tvg-logo="https://www.yupptv.com/seo_img/UGC_GEC_big.jpg",Vyas NIC
@@ -5475,6 +5501,8 @@ https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae0
 http://92.114.85.87:8003/play/a007/index.m3u8
 #EXTINF:-1 tvg-name="Sci Fi" group-title="Other" tvg-logo="https://i.imgur.com/QEqai8a.png",Sci Fi
 http://116.90.120.149:8000/play/a0l0/index.m3u8
+#EXTINF:-1 tvg-name="TBN Polska" group-title="Other" tvg-logo="https://ocdn.eu/ptv2-images-transforms/1/4fPkrxsb2dvLW1pZ3JhdGVkL3Ribi1wb2xza2EucG5nkpUCZADCw5UCACjCww",TBN Polska
+https://prx-y5cf8.mediatool.tv/playout/tbn-abr67/index.m3u8
 #EXTINF:-1 tvg-name="Top Barça" group-title="Other" tvg-logo="https://images-2.rakuten.tv/storage/global-live-channel/translation/artwork/7c59e962-086b-4d64-afb3-7f83ca8c3377-width200-quality90.jpeg",Top Barça
 https://jmp2.uk/plu-6888ee858f4a4aa11feb9430.m3u8
 #EXTINF:-1 tvg-name="TOP BARÇA" group-title="Other" tvg-logo="https://images-2.rakuten.tv/storage/global-live-channel/translation/artwork/7c59e962-086b-4d64-afb3-7f83ca8c3377-width200-quality90.jpeg",TOP BARÇA
