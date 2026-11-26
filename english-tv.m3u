@@ -645,6 +645,8 @@ https://dash4.antik.sk/live/test_skynews/playlist.m3u8
 https://hlspackager.akamaized.net/live/DB/i24_ENGLISH/HLS/i24_ENGLISH.m3u8
 #EXTINF:-1 tvg-name="i24NEWS English World" group-title="News" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/LOGO_i24NEWS.png/960px-LOGO_i24NEWS.png",i24NEWS English World
 https://i24newsenglish-cdn.encoders.immergo.tv/master.m3u8
+#EXTINF:-1 tvg-name="ABC News" group-title="News" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/ABC_News.png",ABC News
+https://stream.ottlive.co.in/abcnews/index.m3u8
 #EXTINF:-1 tvg-name="ABP News" group-title="News" tvg-logo="https://dtil.tmsimg.com/assets/s158138_ld_h15_aa.png?lock=720x540",ABP News
 https://abpmitv.akamaized.net/hls/live/2042842/abpnews/master.m3u8
 #EXTINF:-1 tvg-name="ABP News" group-title="News" tvg-logo="https://dtil.tmsimg.com/assets/s158138_ld_h15_aa.png?lock=720x540",ABP News
@@ -2511,6 +2513,8 @@ https://rundle.tv/proxy5.php?src=https%3A%2F%2Fthor1.syndula001.cfd%2Fschi1%2Fus
 https://rundle.tv/proxy5.php?src=https%3A%2F%2Fthor1.syndula001.cfd%2Fschi2%2Fusergendxj85trnd-got.htm
 #EXTINF:-1 tvg-name="Viasat Kino" group-title="Movies" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/0f/Viasat_Kino_2025.svg/revision/latest?cb=20250506205346",Viasat Kino
 http://91.235.165.117:8001/play/a055/index.m3u8
+#EXTINF:-1 tvg-name="Warner TV" group-title="Movies" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Warner2018LA.png/960px-Warner2018LA.png",Warner TV
+http://91.235.165.117:8001/play/a08h/index.m3u8
 #EXTINF:-1 tvg-name="Movies Action" group-title="Movies" tvg-logo="https://i.imgur.com/NIVhISa.png",Movies Action
 https://shd-amg-fast.edgenextcdn.net/tx011/playlist.m3u8
 #EXTINF:-1 tvg-name="Movies Thriller" group-title="Movies" tvg-logo="https://i.imgur.com/JWihdcl.png",Movies Thriller
@@ -2984,6 +2988,8 @@ http://92.114.85.87:8010/play/a009/index.m3u8
 https://atlantida1.aquax1.cfd/disjr/usergendxvoq4rnd.m3u8
 #EXTINF:-1 tvg-name="JimJam" group-title="Kids" tvg-logo="https://i.imgur.com/ODhkYyx.png",JimJam
 https://rundle.tv/proxy5.php?src=https%3A%2F%2Fsaruman1.tharen001.cfd%2Fjimy%2Fusergenq3n0lz7kr-got.htm
+#EXTINF:-1 tvg-name="Nick Jr." group-title="Kids" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nick_Jr._logo_2023_(outline).svg/960px-Nick_Jr._logo_2023_(outline).svg.png",Nick Jr.
+http://91.235.165.117:8001/play/a038/index.m3u8
 #EXTINF:-1 tvg-name="Nickelodeon" group-title="Kids" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/6/60/Nickelodeon_Splat_2023.png/revision/latest?cb=20241009234318",Nickelodeon
 http://91.235.165.117:8001/play/a05z/index.m3u8
 #EXTINF:-1 tvg-name="Nicktoons" group-title="Kids" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/7/71/NickToons_US_2023_Splat_Variant.png/revision/latest?cb=20251214221939",Nicktoons
@@ -3045,7 +3051,7 @@ https://cdn4.skygo.mn/live/disk1/Cartoon_Network/HLSv3-FTA/Cartoon_Network.m3u8
 #EXTINF:-1 tvg-name="Cartoon Network Asia" group-title="Kids" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/960px-Cartoon_Network_2010_logo.svg.png",Cartoon Network Asia
 http://202.150.165.66:8088/play/200-CartoonNetwork/index.m3u8
 #EXTINF:-1 tvg-name="Cartoon Network Asia Thailand" group-title="Kids" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/960px-Cartoon_Network_2010_logo.svg.png",Cartoon Network Asia Thailand
-http://103.253.74.210:7070/stream/118/index.m3u8
+http://103.148.210.190:8000/play/a14r
 #EXTINF:-1 tvg-name="Cartoonito Asia" group-title="Kids" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Cartoonito_-_Logo_2021.svg/960px-Cartoonito_-_Logo_2021.svg.png",Cartoonito Asia
 http://cdn4.skygo.mn/live/disk1/Boomerang/HLSv3-FTA/Boomerang.m3u8
 #EXTINF:-1 tvg-name="Cartoonito Asia" group-title="Kids" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Cartoonito_-_Logo_2021.svg/960px-Cartoonito_-_Logo_2021.svg.png",Cartoonito Asia
@@ -3054,6 +3060,8 @@ http://202.150.165.66:8088/play/201-Cartoonito/index.m3u8
 http://103.253.74.210:7070/stream/116/index.m3u8
 #EXTINF:-1 tvg-name="Nickelodeon Asia" group-title="Kids" tvg-logo="https://i.imgur.com/E84jnP8.png",Nickelodeon Asia
 http://103.253.74.210:7070/stream/117/index.m3u8
+#EXTINF:-1 tvg-name="Nickelodeon Asia Indonesia" group-title="Kids" tvg-logo="https://i.imgur.com/E84jnP8.png",Nickelodeon Asia Indonesia
+http://103.165.207.108:8000/play/a00v/index.m3u8
 #EXTINF:-1 tvg-name="Zoo Moo" group-title="Kids" tvg-logo="https://i.imgur.com/ciTJrnl.png",Zoo Moo
 https://amg01553-blueantmediaasi-zoomoonz-samsungnz-rdufn.amagi.tv/playlist/amg01553-blueantmediaasi-zoomoonz-samsungnz/playlist.m3u8
 #EXTINF:-1 tvg-name="Zoo Moo" group-title="Kids" tvg-logo="https://i.imgur.com/ciTJrnl.png",Zoo Moo
@@ -3916,22 +3924,6 @@ https://streammix.alsolnet.com/hyperadio/live/playlist.m3u8
 https://rsdh.cloud-streams.com/rsdh/rsdh/playlist.m3u8
 #EXTINF:-1 tvg-name="Rararadio" group-title="Music" tvg-logo="https://i.imgur.com/vTpfxUG.png",Rararadio
 https://58c04fb1d143f.streamlock.net/rararadio/rararadio/playlist.m3u8
-#EXTINF:-1 tvg-name="XITE Classic Country" group-title="Music" tvg-logo="https://i.imgur.com/XQrMCkT.png",XITE Classic Country
-https://jmp2.uk/plu-623b92a2ccefed0007b1db48.m3u8
-#EXTINF:-1 tvg-name="XITE Hits" group-title="Music" tvg-logo="https://i.imgur.com/N51Rp7E.png",XITE Hits
-https://d726x48n2pd5h.cloudfront.net/XITE_Hits.m3u8
-#EXTINF:-1 tvg-name="XITE Hits Germany" group-title="Music" tvg-logo="https://i.imgur.com/N51Rp7E.png",XITE Hits Germany
-https://d726x48n2pd5h.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-skxr1pazhltvp/XITE_Hits.m3u8
-#EXTINF:-1 tvg-name="XITE Hits UK" group-title="Music" tvg-logo="https://i.imgur.com/N51Rp7E.png",XITE Hits UK
-https://amg01243-xitenetworksint-hitsuk-samsunguk-mvovq.amagi.tv/playlist/amg01243-xitenetworksint-hitsuk-samsunguk/playlist.m3u8
-#EXTINF:-1 tvg-name="XITE Just Chill" group-title="Music" tvg-logo="https://provider-static.plex.tv/epg/cms/production/927dd614-017d-49dd-9eb9-0ed79d09084e/xitejustchill_logo_light_-_Arlette_FiranRDX.png",XITE Just Chill
-https://dvnftgdlbnemm.cloudfront.net/XITE_Just_Chill.m3u8
-#EXTINF:-1 tvg-name="XITE Reggae Vibes" group-title="Music" tvg-logo="https://provider-static.plex.tv/epg/cms/production/c7506335-967f-46a9-917a-2a35475cd96c/xitereggaevibes_logo_light_-_Arlette_FiranRDX.png",XITE Reggae Vibes
-https://dw2m7yrngfg8c.cloudfront.net/XITE_Reggae_Vibes.m3u8
-#EXTINF:-1 tvg-name="XITE Rock x Metal" group-title="Music" tvg-logo="https://i.imgur.com/szDM09P.png",XITE Rock x Metal
-https://jmp2.uk/plu-623a1b5188ecdc0007c9ef5a.m3u8
-#EXTINF:-1 tvg-name="XITE Rock x Metal" group-title="Music" tvg-logo="https://i.imgur.com/szDM09P.png",XITE Rock x Metal
-https://d198ro05q94rc4.cloudfront.net/XITE_Rock_On.m3u8
 #EXTINF:-1 tvg-name="Juice TV" group-title="Music" tvg-logo="https://i.imgur.com/WaaaW0w.png",Juice TV
 https://juicex.nz/hls/mystream.m3u8
 #EXTINF:-1 tvg-name="Jalwa TV" group-title="Music" tvg-logo="https://i.imgur.com/HWb5Iat.png",Jalwa TV
@@ -4134,8 +4126,6 @@ http://23.237.104.106:8080/USA_VH1/index.m3u8
 https://2-fss-2.streamhoster.com/pl_118/206436-3189488-1/playlist.m3u8
 #EXTINF:-1 tvg-name="WVCU-LP Concord University Radio The Cure 97.7" group-title="Music" tvg-logo="https://upload.wikimedia.org/wikipedia/en/0/0f/WVCU-LP_2015.PNG",WVCU-LP Concord University Radio The Cure 97.7
 https://video1.getstreamhosting.com:1936/8152/8152/playlist.m3u8
-#EXTINF:-1 tvg-name="XITE 90's Throwback" group-title="Music" tvg-logo="https://i.imgur.com/vwpOzuz.png",XITE 90's Throwback
-https://d284aawtm5vi48.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-fjdfi2br1jtq7/XITE_90s_Throwback.m3u8
 #EXTINF:-1 tvg-name="Yo! MTV" group-title="Music" tvg-logo="https://i.imgur.com/hzNXDdY.png",Yo! MTV
 https://jmp2.uk/plu-654102ed770cf1000866c307.m3u8
 #EXTINF:-1 tvg-name="Yo! MTV" group-title="Music" tvg-logo="https://i.imgur.com/hzNXDdY.png",Yo! MTV
@@ -5605,6 +5595,8 @@ https://stream.kingdommediaug.com/ktv/video.m3u8
 https://stream.salttelevision.com/hls/stream.m3u8
 #EXTINF:-1 tvg-name="Salt TV" group-title="Other" tvg-logo="https://i.imgur.com/AK9nE6Y.png",Salt TV
 https://live.salttelevision.com/app/stream/abr.m3u8
+#EXTINF:-1 tvg-name="Tooro TV" group-title="Other" tvg-logo="https://i.imgur.com/2bwPHgZ.png",Tooro TV
+https://media.hydeinnovations.com/Tooro_TV-srt/index.m3u8
 #EXTINF:-1 tvg-name="Ahlulbayt TV" group-title="Other" tvg-logo="https://i.imgur.com/lNGJGjy.png",Ahlulbayt TV
 https://cd198.anystream.uk:8082/hls/abtv3ng/index.m3u8
 #EXTINF:-1 tvg-name="Ahlulbayt TV" group-title="Other" tvg-logo="https://i.imgur.com/lNGJGjy.png",Ahlulbayt TV
@@ -6126,11 +6118,11 @@ https://cpcdn.azureedge.net/ESCAMBIACOFLLIVE1/ESCAMBIACOFLLIVE1/playlist.m3u8
 #EXTINF:-1 tvg-name="ESNE TV" group-title="Other" tvg-logo="https://i.imgur.com/B50i65o.png",ESNE TV
 http://168.196.127.137:6001/play/a071/index.m3u8
 #EXTINF:-1 tvg-name="EWTN Africa-Asia" group-title="Other" tvg-logo="https://i.imgur.com/sua70RO.png",EWTN Africa-Asia
+https://mumt05.tangotv.in/87NeALx2EWTN/index.m3u8
+#EXTINF:-1 tvg-name="EWTN Africa-Asia" group-title="Other" tvg-logo="https://i.imgur.com/sua70RO.png",EWTN Africa-Asia
+https://samitaorigin.tangotv.in/EWTN/SAMITAORIGIN/index.m3u8
+#EXTINF:-1 tvg-name="EWTN Africa-Asia" group-title="Other" tvg-logo="https://i.imgur.com/sua70RO.png",EWTN Africa-Asia
 https://cdn3.wowza.com/1/ZVBYYXFLLzE0c3NC/Qk1FMURC/hls/live/playlist.m3u8
-#EXTINF:-1 tvg-name="EWTN Asia-Pacific" group-title="Other" tvg-logo="https://i.imgur.com/sua70RO.png",EWTN Asia-Pacific
-https://cdn3.wowza.com/1/QmVNUVhTNTZSS3Uz/YWQ0aHpi/hls/live/playlist.m3u8
-#EXTINF:-1 tvg-name="EWTN Canada" group-title="Other" tvg-logo="https://i.imgur.com/sua70RO.png",EWTN Canada
-https://cdn3.wowza.com/1/YW5wSWZiRGd2eFlU/bGV0aVBq/hls/live/playlist.m3u8
 #EXTINF:-1 tvg-name="Extrema TV" group-title="Other" tvg-logo="https://i.imgur.com/Z1QVkqu.png",Extrema TV
 http://livestreamcdn.net:1935/ExtremaTV/ExtremaTV/playlist.m3u8
 #EXTINF:-1 tvg-name="Fairground AI Creator TV" group-title="Other" tvg-logo="https://raw.githubusercontent.com/RoqueDJ/iptv-svg/main/1792454211883.png",Fairground AI Creator TV
